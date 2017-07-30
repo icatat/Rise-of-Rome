@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2017 12:36:34 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+
+	<Policies>
+		<Row>
+				<Type>POLICY_DICTATORSHIP</Type>
+				<Description>TXT_KEY_DICTATORSHIP</Description>
+				<Civilopedia>TXT_KEY_CIV5_DICTATORSHIP_TEXT</Civilopedia>
+				<Help>TXT_KEY_DICTATORSHIP_HELP</Help>
+			<!--	<PolicyBranchType>POLICY_BRANCH_REPUBLICANISM</PolicyBranchType>-->
+				<CultureCost>10</CultureCost>
+				<CultureFromKills>1</CultureFromKills>
+				<GridX>1</GridX>
+				<GridY>2</GridY>
+				<BuildingProductionModifier>5</BuildingProductionModifier>
+				<PortraitIndex>27</PortraitIndex>
+				<IconAtlas>POLICY_ATLAS</IconAtlas>
+				<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+				<CityStrengthMod>1</CityStrengthMod>
+		</Row>
+	</Policies>
+
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_DICTATORSHIP</PolicyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DICTATORSHIP</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DICTATORSHIP</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DICTATORSHIP</PolicyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		
+	</Policy_Flavors>
+
+	<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_DICTATORSHIP</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>
+
+	
+</GameData>

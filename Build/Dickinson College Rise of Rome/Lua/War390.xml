@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/12/2017 1:25:17 PM -->
+<Context>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+
+	<Box Anchor="C,C" ID="Geese">
+		<Grid WrapWidth="200" Size="350,350" Anchor="C,C" Style="Grid9DetailFive140">
+			<Label WrapWidth="250" ID="GeeseMessage" Offset="0,-50" Anchor="C,C" Font="TwCenMT20"
+		   FontStyle="Shadow" ColorSet="Beige_Black_Alpha"
+		   String="TXT_KEY_TEST_DIALOG_GEESE"/>
+			<Label Anchor="C,T" Offset="10,20" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_TEST_DIALOG_GEESE_DESCRIPTION"  />
+			<!--Copy This To create more buttons, change ID, TXT_KEY and TOOLTIP.-->
+			<GridButton Style="BaseButton"  ID="GeeseOK" Size="100,40" Anchor="C,C" Offset="0,70"  String="TXT_KEY_TEST_DIALOG_GEESE_OK" ToolTip="TXT_KEY_TEST_DIALOG_GEESE_OK">
+				<ShowOnMouseOver>
+					<AlphaAnim Anchor="L,C" AnchorSide="O,O" Size="16,32"
+				   TextureOffset="0,0" Texture="buttonsidesglow.dds" Cycle="Bounce"
+				   Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+					<Image Anchor="L,C" AnchorSide="O,O" Size="8,16"
+				   TextureOffset="0,0" Texture="buttonsides.dds" />
+					<AlphaAnim Anchor="R,C" AnchorSide="O,O" Size="16,32"
+				   TextureOffset="16,0" Texture="buttonsidesglow.dds" Cycle="Bounce"
+				   Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+					<Image Anchor="R,C" AnchorSide="O,O" Size="8,16"
+				   TextureOffset="8,0" Texture="buttonsides.dds" />
+				</ShowOnMouseOver>
+
+			</GridButton>
+		</Grid>
+		</Box>
+</Context>

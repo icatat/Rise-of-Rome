@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/15/2017 4:06:58 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<MinorCivilizations>
+
+		<!--Neapolis-->
+		<Row>
+			<Type>MINOR_CIV_NEAPOLIS</Type>
+			<Description>TXT_KEY_CITYSTATE_NEAPOLIS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_NEAPOLIS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_NEAPOLIS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_NEAPOLIS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		
+		<!--Vestini-->
+		<Row>
+			<Type>MINOR_CIV_VESTINI</Type>
+			<Description>TXT_KEY_CITYSTATE_VESTINI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_VESTINI</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_VESTINI_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_VESTINI_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+
+		<!--Paeligni-->
+		<Row>
+			<Type>MINOR_CIV_PAELIGNI</Type>
+			<Description>TXT_KEY_CITYSTATE_PAELIGNI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PAELIGNI</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_PAELIGNI_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_PAELIGNI_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		
+		<!--Marrucini-->
+		<Row>
+			<Type>MINOR_CIV_MARRUCINI</Type>
+			<Description>TXT_KEY_CITYSTATE_MARRUCINI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MARRUCINI</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MARRUCINI_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MARRUCINI_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+
+		<!--Praetuttii-->
+		<Row>
+			<Type>MINOR_CIV_PRAETUTTII</Type>
+			<Description>TXT_KEY_CITYSTATE_PRAETUTTII</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PRAETUTTII</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_PRAETUTTII_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_PRAETUTTII_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+
+		<!--Frentan9-->
+		<Row>
+			<Type>MINOR_CIV_FRENTANI</Type>
+			<Description>TXT_KEY_CITYSTATE_FRENTANI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_FRENTANI</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_FRENTANI_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_FRENTANI_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+
+		<!--Marsi-->
+		<Row>
+			<Type>MINOR_CIV_MARSI</Type>
+			<Description>TXT_KEY_CITYSTATE_MARSI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MARSI</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MARSI_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MARSI_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+
+		<!--Brutii-->
+		<Row>
+			<Type>MINOR_CIV_BRUTII</Type>
+			<Description>TXT_KEY_CITYSTATE_BRUTII</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BRUTII</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BRUTII_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_BRUTII_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+
+
+	</MinorCivilizations>
+
+	<MinorCivilization_CityNames>
+		<!--Neapolis-->
+		<Row>
+			<MinorCivType>MINOR_CIV_NEAPOLIS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_NEAPOLIS</CityName>
+		</Row>
+		
+		<!--Vetini-->
+
+		<Row>
+			<MinorCivType>MINOR_CIV_NEAPOLIS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_NEAPOLIS</CityName>
+		</Row>
+
+		<!--Paeligni-->
+
+		<Row>
+			<MinorCivType>MINOR_CIV_PAELIGNI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_PAELIGNI</CityName>
+		</Row>
+		
+		<!--Marrucini-->
+
+		<Row>
+			<MinorCivType>MINOR_CIV_MARRUCINI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MARRUCINI</CityName>
+		</Row>
+
+		<!--Praetutti-->
+
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAETUTTI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_PRAETUTTI</CityName>
+		</Row>
+
+		<!--Frentani-->
+
+		<Row>
+			<MinorCivType>MINOR_CIV_FRENTANI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_FRENTANI</CityName>
+		</Row>
+
+		<!--Marsi-->
+
+		<Row>
+			<MinorCivType>MINOR_CIV_MARSI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MARSI</CityName>
+		</Row>
+
+		<!--Brutii-->
+
+		<Row>
+			<MinorCivType>MINOR_CIV_BRUTII</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_BRUTII</CityName>
+		</Row>
+
+
+
+	</MinorCivilization_CityNames>
+
+	<MinorCivilization_Flavors>
+		
+		
+		
+		<!--Neapolis-->
+		<Row>
+			<MinorCivType>MINOR_CIV_NEAPOLIS</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<MinorCivType>MINOR_CIV_NEAPOLIS</MinorCivType>
+			<FlavorType>FLAVOR_CULTURED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NEAPOLIS</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		
+		<!--Vestini-->
+		<Row>
+			<MinorCivType>MINOR_CIV_VESTINI</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<MinorCivType>MINOR_CIV_VESTINI</MinorCivType>
+			<FlavorType>FLAVOR_CULTURED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VESTINI</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+		<!--Paeligni-->
+		<Row>
+			<MinorCivType>MINOR_CIV_PAELIGNI</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<MinorCivType>MINOR_CIV_PAELIGNI</MinorCivType>
+			<FlavorType>FLAVOR_CULTURED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAELIGNI</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+
+		<!--MARRUCINI-->
+		<Row>
+			<MinorCivType>MINOR_CIV_MARRUCINI</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<MinorCivType>MINOR_CIV_MARRUCINI</MinorCivType>
+			<FlavorType>FLAVOR_CULTURED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MARRUCINI</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+		<!--Praetutti-->
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAETUTTII</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAETUTTII</MinorCivType>
+			<FlavorType>FLAVOR_CULTURED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAETUTTII</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+		<!--Frentani-->
+		<Row>
+			<MinorCivType>MINOR_CIV_FRENTANI</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<MinorCivType>MINOR_CIV_FRENTANI</MinorCivType>
+			<FlavorType>FLAVOR_CULTURED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_FRENTANI</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+		<!--Marsi-->
+		<Row>
+			<MinorCivType>MINOR_CIV_MARSI</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<MinorCivType>MINOR_CIV_MARSI</MinorCivType>
+			<FlavorType>FLAVOR_CULTURED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MARSI</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+		<!--Brutii-->
+		<Row>
+			<MinorCivType>MINOR_CIV_BRUTII</MinorCivType>
+			<FlavorType>FLAVOR_DEFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BRUTII</MinorCivType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+
+
+	</MinorCivilization_Flavors>
+
+
+	</GameData>

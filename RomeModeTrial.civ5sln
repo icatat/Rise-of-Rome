@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "RomeModeTrial", "RomeModeTrial\RomeModeTrial.civ5proj", "{079BA720-83D3-4049-BD7E-9718DE2482E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{079BA720-83D3-4049-BD7E-9718DE2482E1}.Default|x86.ActiveCfg = Default|x86
+		{079BA720-83D3-4049-BD7E-9718DE2482E1}.Default|x86.Build.0 = Default|x86
+		{079BA720-83D3-4049-BD7E-9718DE2482E1}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{079BA720-83D3-4049-BD7E-9718DE2482E1}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{079BA720-83D3-4049-BD7E-9718DE2482E1}.Package Only|x86.ActiveCfg = Package Only|x86
+		{079BA720-83D3-4049-BD7E-9718DE2482E1}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

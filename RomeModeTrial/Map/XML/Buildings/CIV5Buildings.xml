@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2017 9:55:34 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TEMPLE_JUPITER</Type>
+			<Description>TXT_KEY_TEMPLE_JUPITER</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_JUPITER</BuildingClass>
+			<IsReligious>true</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_JUPITER</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_JUPITER_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_JUPITER</Help>
+			<Cost>100</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Happiness>4</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_SERES</Type>
+			<Description>TXT_KEY_TEMPLE_SERES</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<IsReligious>true</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_SERES</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_SERES_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_SERES</Help>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<Happiness>4</Happiness>
+		</Row>
+		
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUPITER</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUPITER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_ResourceCultureChanges>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUPITER</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<CultureChange>1</CultureChange>
+		</Row>
+	</Building_ResourceCultureChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+		
+  
+</GameData>

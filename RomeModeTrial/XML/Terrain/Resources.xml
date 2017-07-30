@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/13/2017 2:17:11 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Resources>
+
+
+		<Row>
+			<Type>RESOURCE_TIN</Type>
+			<TechCityTrade>TECH_METAL_CASTING</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_TIN</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TIN_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_TIN_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_MODERN</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_ALUMINUM</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_RESOURCE_ALUMINUM_HEAVY</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_RESOURCE_ALUMINUM</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_ALUMINUM_HEAVY</AltArtDefineTagHeavy>
+			<AITradeModifier>10</AITradeModifier>
+			<AIObjective>1</AIObjective>
+			<PlacementOrder>2</PlacementOrder>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>75</Player>
+			<Hills>true</Hills>
+			<IconString>[ICON_RES_ALUMINUM]</IconString>
+			<PortraitIndex>37</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+
+		<Row>
+			<Type>RESOURCE_FLEX</Type>
+			<Description>TXT_KEY_RESOURCE_FLEX</Description>
+			<Help>TXT_KEY_RESOURCE_FLEX_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_FLEX_TEXT</Civilopedia>
+			<Happiness>3</Happiness>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_WHEAT</ArtDefineTag>
+			<PlacementOrder>7</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<RandApp1>7</RandApp1>
+			<RandApp2>7</RandApp2>
+			<Unique>6</Unique>
+			<Flatlands>true</Flatlands>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_WHEAT]</IconString>
+			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+
+		<Row>
+			<Type>RESOURCE_OLIVES</Type>
+			<Description>TXT_KEY_RESOURCE_OLIVES</Description>
+			<Help>TXT_KEY_RESOURCE_OLIVES_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_OLIVES_TEXT</Civilopedia>
+			<Happiness>3</Happiness>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_OIL</ArtDefineTag>
+			<PlacementOrder>7</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<RandApp1>7</RandApp1>
+			<RandApp2>7</RandApp2>
+			<Unique>6</Unique>
+			<Flatlands>true</Flatlands>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_WHEAT]</IconString>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+
+	<Resource_YieldChanges>
+
+
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FLEX</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FLEX</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<ResourceType>RESOURCE_OLIVES</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OLIVES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+	</Resource_YieldChanges>
+
+	<Resource_Flavors>
+	
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
+		<Row>
+			<ResourceType>RESOURCE_FLEX</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OLIVES</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+
+	</Resource_Flavors>
+
+	<Resource_TerrainBooleans>
+	
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FLEX</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FLEX</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+
+		<Row>
+			<ResourceType>RESOURCE_OLIVES</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OLIVES</ResourceType>
+			<TerrainType>TERRAIN_HILLS</TerrainType>
+		</Row>
+	</Resource_TerrainBooleans>
+
+
+	<Resource_FeatureBooleans>
+		<Row>
+			<ResourceType>RESOURCE_FLEX</ResourceType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+		</Row>
+
+		<Row>
+			<ResourceType>RESOURCE_OLIVES</ResourceType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+		</Row>
+		</Resource_FeatureBooleans>
+		
+
+	<Resource_QuantityTypes>
+		<Update>
+			<Where ResourceType ="RESOURCE_IRON"/>
+			<Set Quantity = "10"/>
+		</Update>
+		<Update>
+			<Where ResourceType ="RESOURCE_COPPER"/>
+			<Set Quantity ="10"/>
+		</Update>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+		
+	</Resource_QuantityTypes>
+  
+</GameData>

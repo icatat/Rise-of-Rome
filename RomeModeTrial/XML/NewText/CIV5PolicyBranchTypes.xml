@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/18/2017 11:31:59 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+
+
+		<!--Mo Maiorum-->
+		<Update>
+			<Set Text ="Mo Maiorum"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_TRADITION"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Mo Maiorum[ENDCOLOR][NEWLINE]Literally translating to “the customs of our ancestors,” mos maiorum represented the importance of tradition in Roman society. Greatly increases the rate of border expansion in cities (by diminishing the accumulated Culture needed for successive new tiles) and also grants +3 [ICON_CULTURE] in the Capital. Unlocks building the Hanging Gardens wonder.
+				 [NEWLINE]Adopting all Policies in the mos maiorum tree will grant +15% [ICON_FOOD] Growth in all cities and a free Aqueduct in your first four cities.
+				 [NEWLINE]Choosing this policy first will give you the honorific 'Lord' for male leaders and 'Lady' for female leaders." />
+		</Update>
+		<Update>
+			<Set Text ="MO MAIORUM"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_TRADITION_CAP"/>
+		</Update>
+		
+
+		<!--Plebeianism-->
+		<Update>
+			<Set Text ="Plebeianism"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_LIBERTY"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Plebeinism[ENDCOLOR][NEWLINE]The Plebeian class existed below the ranking of the Patricians, but they had the ability to influence state policy. One recorded way of exerting influence was secession, a rare practice in which all plebeians left their duties in Rome and left the city in a standstill until the state offered concessions.[NEWLINE]Adopting Plebeianism will provide +1 [ICON_CULTURE] in every city. Unlocks building the Pyramids wonder.
+						[NEWLINE]Adopting all policies in the Plebeianism tree will grant a free Great Person of your choice near the [ICON_CAPITAL]Capital
+						[NEWLINE]Choosing this policy first will give you the honorific 'Consul'." />
+		</Update>
+		<Update>
+			<Set Text ="PLEBEIANISM"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_LIBERTY_CAP"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIBERTY_TEXT" />
+			<Set Text="Plebeianism. " />
+		</Update>
+
+		<!--Virtus-->
+		<Update>
+			<Set Text ="Virtus"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_HONOR"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Virtus[ENDCOLOR][NEWLINE]The Roman value of virtus was quite different from our concept of “virtue” today. Literally translating to “quality of a man” or “manliness,” virtus combined the aspects of a good man with those of a useful citizen. A man with virtus was strong, loyal, heroic in war, and could provide for his family.[NEWLINE] Choosing this policy first will give you the honorific 'The Great'.
+[NEWLINE]Adopting virtus gives a +33% combat bonus against Barbarians; from now on notifications will be provided when new Barbarian Encampments spawn in revealed territory. Gain [ICON_CULTURE] for the empire from each barbarian unit killed. (The [ICON_CULTURE]Culture earned is equal to the Combat [ICON_STRENGTH] or [ICON_RANGE_STENGTH] of the defeated unit, whichever is greater.) Unlocks building the Statue of Zeus wonder.
+[NEWLINE]Adopting all policies in the virtus tree will grant [ICON_GOLD] for each enemy unit killed. (Note that this applies only to units killed directly by your actions. For example, you won't receive Gold for a unit killed by the effect of a Citadel.)
+" />
+		</Update>
+		<Update>
+			<Set Text ="VIRTUS"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_HONOR_CAP"/>
+		</Update>
+
+		<!--Fides-->
+		<Update>
+			<Set Text ="Fides"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_PATRONAGE"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Fides[ENDCOLOR][NEWLINE]Fides was the Roman value of keeping true to one’s word and obligations, similar to trustworthiness. To have good fides, you have to pay your debts, keep your word, and perform your duties for the state. [NEWLINE]Choosing this policy first will give you the honorific 'The Enlightened'.
+Adopting fides makes your [ICON-INFLUENCE] with [ICON_CITY_STATE]City-States degrade 25% slower than normal. Unlocks building the Forbidden Palace wonder.
+Adopting all policies in the fides tree will cause allied  [ICON_CITY_STATE]City-States to occasionally gift you Great People.
+" />
+		</Update>
+		<Update>
+			<Set Text ="FIDES"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP"/>
+		</Update>
+
+		<!--Gravitas-->
+		<Update>
+			<Set Text ="Gravitas"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_AESTHETICS"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Gravitas[ENDCOLOR][NEWLINE]Gravitas was the roman value of self-control. To show gravitas was to act dignified in public and not give in to displays of affection or dancing.[NEWLINE]Choosing this policy first will give you the honorific 'Master' for male leaders and 'Mistress' for female leaders.
+[NEWLINE]Adopting gravitas allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building the Uffizi.
+[NEWLINE]Adopting all Policies in the gravitas tree doubles the theming bonus you receive from Museums and Wonders." />
+		</Update>
+		<Update>
+			<Set Text ="GRAVITAS"/>
+			<Where Tag ="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP"/>
+		</Update>
+
+
+
+
+	</Language_en_US>
+
+</GameData>

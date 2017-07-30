@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2017 1:23:22 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+		
+		<!--Aeiqui-->
+		<Row Tag="TXT_KEY_CIV_AEQUI_ADJECTIVE">
+			<Text>Aequian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_AEQUI_DESC">
+			<Text>Aequi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_AEQUI_SHORT_DESC">
+			<Text>Aequi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AEQUI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AEQUI_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+		
+		<!--Etruscans-->
+
+		<Row Tag="TXT_KEY_CIV_ETRUSCAN_ADJECTIVE">
+			<Text>Etruscan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ETRUSCAN_DESC">
+			<Text>Etruria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ETRUSCAN_SHORT_DESC">
+			<Text>Etruria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ETRUSCAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ETRUSCAN_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+		
+		
+		<!--Greek Colonies-->
+		<Update>
+			<Set Text ="Greek Colonies"/>
+			<Where Type ="TXT_KEY_CIV_GREECE_DESC"/>
+
+		</Update>
+		<Update>
+			<Set Text ="Greek Colonies"/>
+			<Where Type ="TXT_KEY_CIV_GREECE_SHORT_DESC"/>
+
+		</Update>
+		<Update>
+			<Set Text ="Greek Colonies"/>
+			<Where Type ="TXT_KEY_CIV5_GREECE"/>
+
+		</Update>
+		
+		<!--Latins-->
+		
+		<Row Tag="TXT_KEY_CIV_LATINS_ADJECTIVE">
+			<Text>Latins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LATINS_DESC">
+			<Text>Latins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LATINS_SHORT_DESC">
+			<Text>Latins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LATINS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LATINS_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+		
+		<!--Semnites-->
+
+
+		<Row Tag="TXT_KEY_CIV_SEMNITES_ADJECTIVE">
+			<Text>Samnite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SEMNITES_DESC">
+			<Text>Samniums</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SEMNITES_SHORT_DESC">
+			<Text>Samnium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SEMNITES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SEMNITES_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+		
+		<!--Senones-->
+		<Row Tag="TXT_KEY_CIV_SENONES_ADJECTIVE">
+			<Text>Senonian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENONES_DESC">
+			<Text>Senonian Gauls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENONES_SHORT_DESC">
+			<Text>Senonian Gauls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENONES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENONES_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+		
+		<!--Umbrians-->
+		<Row Tag="TXT_KEY_CIV_UMRBIANS_ADJECTIVE">
+			<Text>Umbrian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UMBRIANS_DESC">
+			<Text>Umbria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UMBRIANS_SHORT_DESC">
+			<Text>Umbria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UMBRIANS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UMRBIANS_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+		
+		<!--Volsci-->
+		<Row Tag="TXT_KEY_CIV_VOLSCI_ADJECTIVE">
+			<Text>Volscian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VOLSCI_DESC">
+			<Text>Volsci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VOLSCI_SHORT_DESC">
+			<Text>Volsci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VOLSCI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VOLSCI_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+
+		<!--Veii-->
+		<Row Tag="TXT_KEY_CIV_VEII_ADJECTIVE">
+			<Text>Veientine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VEII_DESC">
+			<Text>Veii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VEII_SHORT_DESC">
+			<Text>Veii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VEII_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VEII_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+
+		<!--Sabines-->
+		<Row Tag="TXT_KEY_CIV_SABINES_ADJECTIVE">
+			<Text>Sabines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SABINES_DESC">
+			<Text>Sabines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SABINES_SHORT_DESC">
+			<Text>Sabines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SABINES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SABINES_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+
+
+		<!--Lucania-->
+		<Row Tag="TXT_KEY_CIV_LUCANIA_ADJECTIVE">
+			<Text>Lucania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LUCANIA_DESC">
+			<Text>Lucania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LUCANIA_SHORT_DESC">
+			<Text>Lucania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LUCANIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LUCANIA_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+
+		<!--Picenum-->
+		<Row Tag="TXT_KEY_CIV_PICENUM_ADJECTIVE">
+			<Text>Picenum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PICENUM_DESC">
+			<Text>Picenum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PICENUM_SHORT_DESC">
+			<Text>Picenum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PICENUM_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PICENUM_TEXT_1">
+			<Text>
+				TBD
+			</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+	
+</GameData>

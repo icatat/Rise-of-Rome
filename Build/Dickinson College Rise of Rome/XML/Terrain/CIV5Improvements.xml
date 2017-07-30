@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/14/2017 12:50:49 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Improvements>
+	<Row>
+		<Type>IMPROVEMENT_DRAIN</Type>
+		<Description>TXT_KEY_IMPROVEMENT_DRAIN</Description>
+		<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_DRAIN_TEXT</Civilopedia>
+		<Permanent>true</Permanent>
+		<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+		<ArtDefineTag>ART_DEF_IMPROVEMENT_WELL</ArtDefineTag>
+		<PortraitIndex>28</PortraitIndex>
+		<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+	</Row>
+	</Improvements>
+	
+	<Improvement_Flavors>
+		<Row>
+		<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+		<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+		<Flavor>5</Flavor>
+		</Row>
+	</Improvement_Flavors>
+	
+	
+	<Improvement_ValidTerrains>
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+		</Row>
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+		</Row>
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	
+	<Improvement_Yields>
+		<Row>
+		<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+		<YieldType>YIELD_SCIENCE</YieldType>
+		<Yield>1</Yield>
+		</Row>
+		
+	</Improvement_Yields>
+	
+
+
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+			<TechType>TECH_ENGINEERING</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+	</Improvement_TechYieldChanges>
+	
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_TEXTILE</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TechType>TECH_TEXTILE</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+
+	<Improvement_ResourceType_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_FLEX</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_OLIVES</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+	
+
+	<Improvement_TechNoFreshWaterYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_DRAIN</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechNoFreshWaterYieldChanges>
+
+
+		
+</GameData>

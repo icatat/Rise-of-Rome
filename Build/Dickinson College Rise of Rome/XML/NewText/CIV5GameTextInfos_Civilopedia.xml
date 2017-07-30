@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2017 1:04:17 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+
+
+	<Language_en_US>
+
+
+		<!--Semnites-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEMNITES_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEMNITES_NAME">
+			<Text>Comius Castronius</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEMNITES_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEMNITES_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SEMNITES_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+
+
+		<!--Aeiqui-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AEQUI_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AEQUI_NAME">
+			<Text>Vetius Messius</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AEQUI_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AEQUI_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AEQUI_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+
+
+		<!--Cincinnatus-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BRUTUS_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BRUTUS_NAME">
+			<Text>L. Iunius Brutus</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BRUTUS_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BRUTUS_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BRUTUS_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+
+
+		<!--Etruscan-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ETRUSCAN_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ETRUSCAN_NAME">
+			<Text>Thefariae Velianas King of Caere</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ETRUSCAN_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ETRUSCAN_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ETRUSCAN_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+
+
+		<!--Greece-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PYRRHUS_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PYRRHUS_NAME">
+			<Text>Pyrrhus of Epirus</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PYRRHUS_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PYRRHUS_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PYRRHUS_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+
+
+
+		<!--Latins-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LATINS_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LATINS_NAME">
+			<Text>Egerius Baebius</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LATINS_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LATINS_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LATINS_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+
+
+		<!--Senones-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENONES_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENONES_NAME">
+			<Text>Brennus</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENONES_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENONES_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENONES_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+
+
+		<!--Umbrians-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UMBRIANS_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UMBRIANS_NAME">
+			<Text>Umbrian Leader</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UMBRIANS_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UMBRIANS_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UMBRIANS_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+		
+		
+		
+		<!--Veii-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VEII_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VEII_NAME">
+			<Text>King Lars Tolumnius</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VEII_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VEII_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VEII_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+		
+		
+		<!--Volsci-->
+		
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VOLSCI_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VOLSCI_NAME">
+			<Text>Coriolanus</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VOLSCI_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VOLSCI_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VOLSCI_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<!--Sabines-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABINES_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABINES_NAME">
+			<Text>Titus Tatius</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABINES_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABINES_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABINES_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<!--Lucania-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUCANIA_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUCANIA_NAME">
+			<Text>Lamiscus</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUCANIA_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUCANIA_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUCANIA_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<!--Picenum-->
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PICENUM_LIVED">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PICENUM_NAME">
+			<Text>Gnaeus Pompeius</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PICENUM_SUBTITLE">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PICENUM_HEADING_1">
+			<Text>TBD</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PICENUM_TEXT_1">
+			<Text>TBD</Text>
+		</Row>
+
+	</Language_en_US>
+
+
+
+
+	
+</GameData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2017 9:49:58 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_JUPITER</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_JUPITER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPE_JUPITER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<Monument>true</Monument>
+		</Row>
+	</BuildingClasses>
+  
+</GameData>

@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2017 9:55:34 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Buildings>
+	
+		<Row>
+			<Type>BUILDING_TEMPLE_JUPITER</Type>
+			<Description>TXT_KEY_TEMPLE_JUPITER</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_JUPITER</BuildingClass>
+			<IsReligious>true</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_JUPITER</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_JUPITER_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_JUPITER</Help>
+			<Cost>50</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Happiness>4</Happiness>
+		</Row>
+		
+
+		<Row>
+			<Type>BUILDING_TEMPLE_SERES</Type>
+			<Description>TXT_KEY_TEMPLE_SERES</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<IsReligious>true</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_SERES</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_SERES_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_SERES</Help>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>4</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_MARS</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_MARS</BuildingClass>
+			<Description>TXT_KEY_TEMPLE_MARS</Description>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_MARS</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_MARS_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_MARS</Help>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<Cost>-1</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+		</Row>
+		<Row>
+			<Type>BUILDING_TEMPLE_MARS_SAVE</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_MARS_SAVE</BuildingClass>
+			<Description>TXT_KEY_TEMPLE_MARS_SAVE</Description>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_MARS_SAVE</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_MARS_SAVE_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_MARS_SAVE</Help>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<Cost>-1</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_VOLSCIAN_WALL</Type>
+			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Help>TXT_KEY_WONDER_VOLSCIAN_WALL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_VOLSCIAN_WALL</Description>
+			<Civilopedia>TXT_KEY_WONDER_VOLSCIANWALL_DESC</Civilopedia>
+			<!--<Quote>TXT_KEY_WONDER_VOLSCIANWALL_QUOTE</Quote>-->
+			<ArtDefineTag>ART_DEF_BUILDING_GREAT_WALL</ArtDefineTag>
+			<BorderObstacle>true</BorderObstacle>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_WALLS</FreeBuildingThisCity>
+			<!--<Culture>3</Culture>-->
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<WonderSplashImage>WonderConceptGreatWall.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_GREAT_WALL</WonderSplashAudio>
+		</Row>
+
+
+		<Row>
+			<Type>BUILDING_VOLSCIAN_BARRACKS</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_VOLSCIAN_BARRACKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING__VOLSCIAN_BARRACKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_VOLSCIAN_BARRACKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_VOLSCIAN_BARRACKS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_AEQUI_WALL</Type>
+			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
+			<Cost>150</Cost>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Help>TXT_KEY_WONDER_AEQUI_WALL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AEQUI_WALL</Description>
+			<Civilopedia>TXT_KEY_WONDER_AEQUIWALL_DESC</Civilopedia>
+			<!--<Quote>TXT_KEY_WONDER_VOLSCIANWALL_QUOTE</Quote>-->
+			<ArtDefineTag>ART_DEF_BUILDING_GREAT_WALL</ArtDefineTag>
+			<BorderObstacle>true</BorderObstacle>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_WALLS</FreeBuildingThisCity>
+			<!--<Culture>3</Culture>-->
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<WonderSplashImage>WonderConceptGreatWall.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_GREAT_WALL</WonderSplashAudio>
+		</Row>
+
+
+		<Row>
+			<Type>BUILDING_AEQUI_BARRACKS</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AEQUI_BARRACKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING__AEQUI_BARRACKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AEQUI_BARRACKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AEQUI_BARRACKS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		
+		
+		<!--Roman Temples-->
+		<Row>
+			<Type>BUILDING_TEMPLE_JUNO</Type>
+			<Description>TXT_KEY_TEMPLE_JUNO</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_JUNO</BuildingClass>
+			<IsReligious>true</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_JUNO</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_JUNO_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_JUNO</Help>
+			<Cost>15</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_VENUS</Type>
+			<Description>TXT_KEY_TEMPLE_VENUS</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_VENUS</BuildingClass>
+			<IsReligious>true</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_VENUS</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_VENUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_VENUS</Help>
+			<Cost>23</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_APOLLO</Type>
+			<Description>TXT_KEY_TEMPLE_APOLLO</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_APOLLO</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_APOLLO</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_APOLLO_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_APOLLO</Help>
+			<Cost>27</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_DIANA</Type>
+			<Description>TXT_KEY_TEMPLE_DIANA</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_DIANA</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_DIANA_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_DIANA</Help>
+			<Cost>19</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_VULCAN</Type>
+			<Description>TXT_KEY_TEMPLE_VULCAN</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_VULCAN</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_VULCAN</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_VULCAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_VULCAN</Help>
+			<Cost>20</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_VESTA</Type>
+			<Description>TXT_KEY_TEMPLE_VESTA</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_VESTA</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_VESTA</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_VESTA_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_VESTA</Help>
+			<Cost>15</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_MERCURY</Type>
+			<Description>TXT_KEY_TEMPLE_MERCURY</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_MERCURY</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_MERCURY</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_MERCURY_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_MERCURY</Help>
+			<Cost>26</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+		
+
+		<Row>
+			<Type>BUILDING_TEMPLE_CERES</Type>
+			<Description>TXT_KEY_TEMPLE_CERES</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_CERES</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_CERES</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_CERES_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_CERES</Help>
+			<Cost>23</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>2</Happiness>
+		</Row>
+
+
+		<!--Umbrians-->
+		<Row>
+			<Type>BUILDING_TEMPLE_FRATRES_ATIEDII</Type>
+			<Description>TXT_KEY_TEMPLE_FRATRES_ATIEDII</Description>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_FRATRES_ATIEDII</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_FRATRES_ATIEDII_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_FRATRES_ATIEDII</Help>
+			<Cost>120</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>>
+			<Happiness>1</Happiness>
+		</Row>
+		
+		<!--Picenum-->
+		<Row>
+			<Type>BUILDING_TEMPLE_DEA_CUPRA</Type>
+			<Description>TXT_KEY_TEMPLE_DEA_CUPRA</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_DEA_CUPRA</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_DEA_CUPRA_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_DEA_CUPRA</Help>
+			<Cost>120</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>5</Happiness>
+		</Row>
+		
+		
+		<!--Sabines-->
+
+		<Row>
+			<Type>BUILDING_CAPITOLIUM_VETUS</Type>
+			<Description>TXT_KEY_BUILDING_CAPITOLIUM_VETUS</Description>
+			<BuildingClass>BUILDINGCLASS_GOVERNAMENTAL</BuildingClass>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_BUILDING_CAPITOLIUM_VETUS</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_BUILDING_CAPITOLIUM_VETUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_BUILDING_CAPITOLIUM_VETUS</Help>
+			<Cost>100</Cost>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>50</HurryCostModifier>
+			<NoOccupiedUnhappiness>true</NoOccupiedUnhappiness>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>63</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TEMPLE_QUIRINUS</Type>
+			<Description>TXT_KEY_TEMPLE_QUIRINUS</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_QUIRINUS</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_QUIRINUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_QUIRINUS</Help>
+			<Cost>120</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>5</Happiness>
+		</Row>
+		
+		<!--Lucania-->
+
+		<Row>
+			<Type>BUILDING_TEMPLE_MUFITIS_UTIANA</Type>
+			<Description>TXT_KEY_TEMPLE_MUFITIS_UTIANA</Description>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<IsReligious>false</IsReligious>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TEMPLE_MUFITIS_UTIANA</Civilopedia>
+			<Strategy>TXT_KEY_CIVILOPEDIA_TEMPLE_MUFITIS_UTIANA_STRATEGY</Strategy>
+			<Help>TXT_KEY_HELP_TEMPLE_MUFITIS_UTIANA</Help>
+			<Cost>120</Cost>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>37</PortraitIndex>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Happiness>5</Happiness>
+		</Row>
+
+
+
+
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUPITER</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUPITER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+
+		<Row>
+			<BuildingType>BUILDING_VOLSCIAN_WALL</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VOLSCIAN_WALL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VOSCIAN_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+		<Row>
+			<BuildingType>BUILDING_AEQUI_WALL</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEQUI_WALL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEQUI_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		
+		
+		
+		<!--Roman Temples-->
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUNO</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VENUS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VENUS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VENUS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VENUS</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_APOLLO</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_APOLLO</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DIANA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DIANA</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VULCAN</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VULCAN</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VESTA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MERCURY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MERCURY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MERCURY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_CERES</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_FRATRES_ATIEDII</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_FRATRES_ATIEDII</BuildingType>
+			<FlavorType>FLAVOR_FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_FRATRES_ATIEDII</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DEA_CUPRA</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DEA_CUPRA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DEA_CUPRA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		
+		<!--Sabines-->
+		<Row>
+			<BuildingType>BUILDING_CAPITOLIUM_VETUS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CAPITOLIUM_VETUS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_QUIRINUS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_QUIRINUS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		
+		<!--Lucania-->
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MUFITIS_UTIANA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MUFITIS_UTIANA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
+	</Building_Flavors>
+	
+	
+	
+	<Building_ResourceCultureChanges>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUPITER</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<CultureChange>1</CultureChange>
+		</Row>
+	</Building_ResourceCultureChanges>
+	
+	
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		
+		<!--Roman Temples-->
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_JUNO</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VENUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VENUS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_APOLLO</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>7</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_APOLLO</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DIANA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DIANA</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DIANA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VULCAN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VULCAN</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VESTA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>7</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_VESTA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MERCURY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>7</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MERCURY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_CERES</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>7</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_CERES</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_DEA_CUPRA</BuildingType>
+			<YieldType>YIELD_HAPPINESS</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CAPITOLIUM_VETUS</BuildingType>
+			<YieldType>YIELD_HAPPINESS</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CAPITOLIUM_VETUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_QUIRINUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MUFITIS_UTIANA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MARS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MARS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>-5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MARS_SAVE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_MARS_SAVE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_VOLSCIAN_BARRACKS</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEQUI_BARRACKS</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_FRATRES_ATIEDII</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_FRATRES_ATIEDII</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VOLSCIAN_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VOLSCIAN_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_AEQUI_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEQUI_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+		
+
+		
+	
+  
+</GameData>

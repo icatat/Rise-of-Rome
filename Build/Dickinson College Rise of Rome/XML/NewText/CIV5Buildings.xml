@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2017 11:13:07 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+
+	<Language_en_US>
+
+		<Row Tag ="TXT_KEY_TEMPLE_SERES">
+			<Text>Temple of Seres</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_SERES">
+			<Text> Temple of Seres</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_SERES_STRATEGY">
+			<Text>Temple of Seres give the civilization extra production</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_SERES">
+			<Text>Temple of Seres helps with the food production of the civilization</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_WONDER_VOLSCIAN_WALL_HELP">
+			<Text>Volscian Wall</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_BUILDING_VOLSCIAN_WALL">
+			<Text>Volscian Wall</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_WONDER_VOLSCIANWALL_DESC">
+			<Text>Volscian Wall</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_WONDER_VOLSCIANWALL_QUOTE">
+			<Text>Voscian Wall Quote</Text>
+		</Row>
+		-->
+
+		<Row Tag ="TXT_KEY_BUILDING_VOLSCIAN_BARRACKS_HELP">
+			<Text>Volscian Barracks</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_BUILDING__VOLSCIAN_BARRACKS">
+			<Text>Volscian Barracks</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_BUILDINGS_VOLSCIAN_BARRACKS_TEXT">
+			<Text>Volscian Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VOLSCIAN_BARRACKS_STRATEGY">
+			<Text>Voscian Barracks give +25% advantage for Melee Units</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_WONDER_AEQUI_WALL_HELP">
+			<Text>Aequi Wall</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_BUILDING_AEQUI_WALL">
+			<Text>Aequi Wall</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_WONDER_AEQUIWALL_DESC">
+			<Text>Aequi Wall</Text>
+		</Row>
+
+		
+		<Row Tag ="TXT_KEY_BUILDING_AEQUI_BARRACKS_HELP">
+			<Text>Aequi Barracks</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_BUILDING__AEQUI_BARRACKS">
+			<Text>Aequi Barracks</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_BUILDINGS_AEQUI_BARRACKS_TEXT">
+			<Text>Aequi Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VOLSCIAN_AEQUI_STRATEGY">
+			<Text>Aequi Barracks give +25% advantage for Melee Units</Text>
+		</Row>
+		
+		
+	<!--Roman Gods-->
+		<!--Jupiter-->
+		<Row Tag ="TXT_KEY_TEMPLE_JUPITER">
+			<Text>Temple of Jupiter</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_JUPITER">
+			<Text> Temple of Jupiter</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_JUPITER_STRATEGY">
+			<Text>Temple of Jupiter give the civilization +4 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_JUPITER">
+			<Text>Temple of Jupiter helps with the happiness of the civilization</Text>
+		</Row>
+
+		<!--Mars-->
+		<Row Tag ="TXT_KEY_TEMPLE_MARS">
+			<Text>Temple of Mars</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MARS">
+			<Text> Temple of Mars</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MARS_STRATEGY">
+			<Text>Temple of Mars decreases the production of teh capital after the player conquers a city</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_MARS">
+			<Text>Temple of Mars</Text>
+		</Row>
+		<!--Mars Save-->
+		<Row Tag ="TXT_KEY_TEMPLE_MARS_SAVE">
+			<Text>Temple of Mars 2</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MARS_SAVE">
+			<Text> Temple of Mars 2</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MARS_SSAVE_STRATEGY">
+			<Text>Temple of Mars 2 restores the production of the population</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_MARS_SAVE">
+			<Text>Temple of Mars</Text>
+		</Row>
+		<!--Juno-->
+		<Row Tag ="TXT_KEY_TEMPLE_JUNO">
+			<Text>Temple of Juno</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_JUNO">
+			<Text> Temple of Juno</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_JUNO_STRATEGY">
+			<Text>Temple of Juno give the civilization +3 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_JUNO">
+			<Text>Temple of Juno</Text>
+		</Row>
+
+		<!--Venus-->
+		<Row Tag ="TXT_KEY_TEMPLE_VENUS">
+			<Text>Temple of Venus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_VENUS">
+			<Text> Temple of Venus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_VENUS_STRATEGY">
+			<Text>Temple of Venus give the civilization +3 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_VENUS">
+			<Text>Temple of Venus</Text>
+		</Row>
+
+
+		<!--Apollo-->
+		<Row Tag ="TXT_KEY_TEMPLE_APOLLO">
+			<Text>Temple of Apollo</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_APOLLO">
+			<Text> Temple of Apollo</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_APOLLO_STRATEGY">
+			<Text>Temple of Apollo give the civilization +3 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_APOLLO">
+			<Text>Temple of Apollo</Text>
+		</Row>
+
+		<!--Diana-->
+		<Row Tag ="TXT_KEY_TEMPLE_DIANA">
+			<Text>Grove of Diana</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_DIANA">
+			<Text>Grove of Diana</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_DIANA_STRATEGY">
+			<Text>Grove of Diana give the civilization +3 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_DIANA">
+			<Text>Grove of Diana</Text>
+		</Row>
+
+		<!--Vulcan-->
+		<Row Tag ="TXT_KEY_TEMPLE_VULCAN">
+			<Text>Temple of Vulcan</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_VULCAN">
+			<Text> Temple of Vulcan</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_VULCAN_STRATEGY">
+			<Text>Temple of Vulan give the civilization +1 happiness  and +10 production each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_VULCAN">
+			<Text>Temple of Vulcan</Text>
+		</Row>
+
+		<!--Vesta-->
+		<Row Tag ="TXT_KEY_TEMPLE_VESTA">
+			<Text>Temple of Vesta</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_VESTA">
+			<Text> Temple of Vesta</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_VESTA_STRATEGY">
+			<Text>Temple of Vesta give the civilization +3 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_VESTA">
+			<Text>Temple of Vesta</Text>
+		</Row>
+
+		<!--Mercury-->
+		<Row Tag ="TXT_KEY_TEMPLE_MERCURY">
+			<Text>Temple of Mercury</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MERCURY">
+			<Text> Temple of Mercury</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MERCURY_STRATEGY">
+			<Text>Temple of Mercury give the civilization +3 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_MERCURY">
+			<Text>Temple of Mercury</Text>
+		</Row>
+
+		<!--Ceres-->
+		<Row Tag ="TXT_KEY_TEMPLE_CERES">
+			<Text>Temple of Ceres</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_CERES">
+			<Text> Temple of Ceres</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_CERES_STRATEGY">
+			<Text>Temple of Ceres give the civilization +3 happiness each turn</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_CERES">
+			<Text>Temple of Ceres</Text>
+		</Row>
+
+		
+		<!--Temple of Fratres Atiedii-->
+		<Row Tag ="TXT_KEY_TEMPLE_FRATRES_ATIEDII">
+			<Text>Temple of Fratres Atiedii</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_FRATRES_ATIEDII">
+			<Text> Temple of Fratres Atiedii</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_FRATRES_ATIEDII_STRATEGY">
+			<Text>Temple of Fratres Atiedii give +15% for Melee Units</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_FRATRES_ATIEDII">
+			<Text>Temple of Fratres Atiedii</Text>
+		</Row>
+		
+		<!--Picenum-->
+		<Row Tag ="TXT_KEY_TEMPLE_DEA_CUPRA">
+			<Text>Temple of Dea Cupra</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_DEA_CUPRA">
+			<Text>Temple of Dea Cupra</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_DEA_CUPRA_STRATEGY">
+			<Text>Temple of Dea Cupra</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_DEA_CUPRA">
+			<Text>Temple of Dea Cupra</Text>
+		</Row>
+		
+		<!--Sabines-->
+		<Row Tag ="TXT_KEY_BUILDING_CAPITOLIUM_VETUS">
+			<Text>Capitolium Vetus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_BUILDING_CAPITOLIUM_VETUS">
+			<Text>Capitolium Vetus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_BUILDING_CAPITOLIUM_VETUS_STRATEGY">
+			<Text>Capitolium Vetus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_BUILDING_CAPITOLIUM_VETUS">
+			<Text>Capitolium Vetus</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_TEMPLE_QUIRINUS">
+			<Text>Temple of Quirinus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_QUIRINUS">
+			<Text>Temple of Quirinus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_QUIRINUS_STRATEGY">
+			<Text>Temple of Quirinus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_QUIRINUS">
+			<Text>Temple of Quirinus</Text>
+		</Row>
+		
+		<!--Lucania-->
+		<Row Tag ="TXT_KEY_TEMPLE_MUFITIS_UTIANA">
+			<Text>Temple of Mufitis Utiana</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MUFITIS_UTIANA">
+			<Text>Temple of Mufitis Utiana</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_TEMPLE_MUFITIS_UTIANA_STRATEGY">
+			<Text>Temple of Mufitis Utiana</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_HELP_TEMPLE_MUFITIS_UTIANA">
+			<Text>Temple of Mufitis Utiana</Text>
+		</Row>
+
+
+		<!--Update-->
+		
+	</Language_en_US>
+
+	<Language_en_US>
+		<Update>
+			<Set Text ="Classical Circus"/>
+			<Where Tag = "TXT_KEY_BUILDING_COLOSSEUM"/>
+		</Update>
+		<Update>
+			<Set Text ="A circus is an outdoor venue where the public can watch sports events. Depending upon the time and place, the events might be gladiatorial contests, American football games, or soccer matches. of the three contests mentioned, the gladiatorial battles were perhaps the hardest on the players involved, the soccer matches (occasionally) just about as dangerous for the participants."/>
+			<Where Tag = "TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="The Classical Circus increases a civilization's [ICON_HAPPINESS_1] Happiness. It cannot provide more Happiness than there are [ICON_CITIZEN] Citizens in a city."/>
+			<Where Tag = "TXT_KEY_BUILDING_COLOSSEUM_STRATEGY"/>
+		</Update>
+	</Language_en_US>
+</GameData>

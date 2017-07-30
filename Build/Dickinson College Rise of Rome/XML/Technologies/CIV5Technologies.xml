@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/14/2017 11:19:09 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Technologies>
+		<Row>
+			<Type>TECH_TEXTILE</Type>
+			<Cost>30</Cost>
+			<Description>TXT_KEY_TECH_TEXTILE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_TEXTILE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_TEXTILE_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>2</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_TEXTILE_QUOTE</Quote>
+			<GoldTrading>true</GoldTrading>
+			<TechTrading>true</TechTrading>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_POTTERY</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_POTTERY</AudioIntroHeader>
+		</Row>
+	</Technologies>
+
+	<Technology_Flavors>
+
+		<Row>
+			<TechType>TECH_TEXTILE</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+		<Row>
+			<TechType>TECH_TEXTILE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+		<Row>
+			<TechType>TECH_TEXTILE</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+		<Row>
+			<TechType>TECH_TEXTILE</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Technology_Flavors>
+	
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_CURRENCY</TechType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+		</Row>
+
+		<Row>
+			<TechType>TECH_CURRENCY</TechType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TEXTILE</TechType>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+		</Row>
+
+		<Row>
+			<TechType>TECH_TEXTILE</TechType>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	
+	
+
+
+
+	
+		
+</GameData>

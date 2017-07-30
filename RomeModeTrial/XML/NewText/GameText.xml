@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2017 10:24:05 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+		<!--Civilization Dawn-->
+		<Row Tag ="TXT_KEY_CIV5_DAWN_ETRUSCAN_TEXT">
+			<Text>			Thefariae Velianas, King of Caere, your civilization has boasted dominance over Italy for centuries. The Etruscans settled from the Tyrrhenian Sea to the Adriatic, introduced iron working to the Italic peoples, and is a source of wonder for all subsequent generations. While your League was once great, some say your age is coming to an end, and that a new power will overrun your lands. Can you prove them wrong, not only by maintaining your civilization’s prowess, but by becoming the one, dominant Italian power? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_DAWN_SAMNITES_TEXT">
+			<Text>			Comius Castronius, you first led your people into Samnium through the rite of the sacred spring, or ver sacrum. The Samnites spread from the unforgiving hilly terrain of south-central Italy and conquered land from the gulf of Tarentum all the way to territory due east of Rome itself. You humiliated Roman forces at the Battle of the Caudine Forks. Can you lead your people to victory, not only over Rome, but over all of Italy? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you will empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_DAWN_LATINS_TEXT">
+			<Text>			Egerius Baebius, dictator of Tusculum, you led the forces of the Latin League against Rome early in its history and posed a major threat to its very existence. Can you summon the forces of the Latins to achieve dominance not only in Latium, but across all of Italy? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_DAWN_SENONES_TEXT">
+			<Text>			Brennus, leader of the Senones, your sudden attack in 390 BCE brought Rome to its knees. You successfully took the Capitoline Hill when no one else could even get near. The memories of your raid struck fear into the hearts of Romans for centuries down the line, and the city never forgot you. Will your Gallic hoard sweep straight through Italy on a campaign for the ages? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_AEQUI_TEXT">
+			<Text>			Vettius Messius, leader of the Aequi, your people have warred with Rome for centuries, fighting for power in east-central Italy. Beware! Rome is on the rise, and it poses an existential threat to the Aequi. You must stamp it out before it is too late. Defeat Rome, and you could conquer all of Italy from your footholds in the Apennines. To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely todominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_VOLSCI_TEXT">
+			<Text>			Gnaeus Marcius Coriolanus, legendary general, exiled from your own city, Rome.  You found acceptance among the Volscians to the south. In 488 BCE, you helped mount an invasion against your former homeland and captured much of its territory. The Romans dreaded the infamous grit and martial prowess of your adopted Volscians. Threatened by the Samnites on one side and the Romans on the other, the Volscians were born out of conflict. Will your ferocity be enough to take over the Italian peninsula? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_UMBRIANS_TEXT">
+			<Text>			Ahal Trutius, you dedicated the statue of Mars of Todi for the honor of the god in the 5th century BCE. Not much is known about your people except for their deep roots in northern Italy and their vast material wealth, displayed in the burial tombs of the elite. You posed one of the last threats to Roman dominance in Italy and put up a tough fight at the Battle of Sentinum. Will your people overcome this time? Can you defeat the mighty Romans and take over the Italian peninsula? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_LUCANIA_TEXT">
+			<Text>			King Lamiscus, you were the legendary king of the Lucanians. You led your people through the rite of the sacred spring, or ver sacrum and won your independence from the Samnites. Later, the mighty Samnites would try to subdue Lucania, but your progeny would not give in. Even Rome feared the ferocity of your descendants. Can you lead your people to a victory over the Archaic Italian superpowers? Can you subdue all of Italy from your humble lands north of Magna Graecia? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE[NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_SABINES_TEXT">
+			<Text>			Titus Tatius, leader of the Sabines, your people have been rivals with Rome since the time of legend. Romulus himself kidnapped your daughters, dragged them to the huts on Palatine, and made them Roman wives. You have not forgotten this atrocious crime. Rome has become more powerful in the centuries hence, and it is now a grave threat to your existence. Will you land the decisive blow against the newly-founded republic? If so, can you then go on to conquer all of Italy in stride? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_PICENUM_TEXT">
+			<Text>			Gnaeus Pompeius, you were a great Roman general long after Rome had conquered Italy, but you sprang from the rich lands of Picenum to become a Roman legend. Centuries before you were born, the Picentes fought for their freedom against Rome. Your ancestors were one of the last bastions against Roman domination on the peninsula. Perhaps with your cunning, the Picentes could have risen and taken the place of Rome as the great Italian empire. Will you outlast Rome, and can you make history remember your oft-forgotten ancestors? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_VEII_TEXT">
+			<Text>			Lars Tolumnius, King of Veii, your city was originally an Etruscan settlement, but it has grown apart from the rest of the Etruscan League. You sit mere miles north of the burgeoning city of Rome, and it represents a grave threat to you. Your two cities battled back and forth for decades, but you remained independent throughout it all. Will your walls save you one last time, or will they fail you against the power of the Roman army? Can you defeat Rome before it wipes you out? Can you even conquer all of Italy and bring fame to your city, or will it be left to a footnote in obscure classical history books? To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+				[NEWLINE][NEWLINE]				GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+			</Text>
+		</Row>
+		
+
+		<!--Puppet Pop-Up-->
+
+		<Row Tag ="TXT_KEY_TEST_DIALOG_PUPPET_1">
+			<Text> Municipium</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_PUPPET_1_MUNI">
+			<Text>Make {1_cityName} Municipium</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_PUPPET_1_DESC">
+			<Text>
+				Choosing municipium will give you extra +2 [ICON_GOLD] each turn from the buildings in the new city. After a certain point the people of the city will be fed up with their second-class citizenship and require a change in the city’s status. Then, you will have to choose to change their status or lose them. When changing their status, the [ICON_GOLD] benefit will be gone as well.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag ="TXT_KEY_TEST_DIALOG_PUPPET_2">
+			<Text> Civitas Sine Suffragio</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_PUPPET_2_DESC">
+			<Text>
+				Rome gave some cities citizenship without the power to vote in Roman elections. This status was called Civitas Sine Suffragio, or citizenship without voting. Choosing Civitas Sine Suffragio will cause the city to grant you military units every 10 years for the next 30 years. However you will have a -5[ICON_PRODUCTION] and -5[ICON_GOLD] deficit each turn.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag ="TXT_KEY_TEST_DIALOG_PUPPET_3">
+			<Text> Colonization</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_PUPPET_3_DESC">
+			<Text>
+				As a means of spreading influence and subduing regions, Rome would establish colonies of its citizens at strategic points throughout the Mediterranean.  Choosing colonization will destroy the current city and replace it with a brand new Roman settlement, granting you full control over it and help you expand your empire. Your new city will be vulnerable to attack, and it will not provide as many resources to your empire as a municipium, Civitas Sine Suffragio state, or an Annexed city, but will not have the Annexing disadvantages either. 
+			</Text>
+		</Row>
+		
+		<!--Forms of Conquering-->
+		
+		<Row Tag = "TXT_KEY_TEST_DIALOG_PUPPET">
+			<Text>Conquering!</Text>
+		</Row>
+		<Row Tag = "TXT_KEY_TEST_DIALOG_PUPPETTING">
+			<Text>Which Puppet?</Text>
+		</Row>
+
+
+		<Row Tag = "TXT_KEY_TEST_DIALOG_PUPPET_CONQUERED">
+			<Text>You are in control of {1_cityName}.[NEWLINE]    Decide {1_cityName}'s fate:</Text>
+		</Row>
+		<Row Tag = "TXT_KEY_TEST_DIALOG_PUPPETTING_CONQUERED">
+			<Text>VICTORY!</Text>
+		</Row>
+
+
+
+
+		<!--Muncipium-->
+		
+		<!--Civitas Sine suffragio-->
+		
+
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_CIVITAS_CITY">
+			<Text>Make {1_cityName} Civitas Sine Suffragio</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_CIVITAS">
+			<Text>
+				Rome gave some cities citizenship without the power to vote in Roman elections. This status was called Civitas Sine Suffragio, or citizenship without voting. Choosing Civitas Sine Suffragio will cause the city to grant you military units every 10 years for the next 30 years. However you will have a -5[ICON_PRODUCTION] and -5[ICON_GOLD] deficit each turn.
+			</Text>
+		</Row>
+		
+		
+		
+		<!--Colonize-->
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_COLONIZE_CITY">
+			<Text>Colonize {1_cityName}</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_COLONIZE">
+			<Text>
+				As a means of spreading influence and subduing regions, Rome would establish colonies of its citizens at strategic points throughout the Mediterranean.  Choosing colonization will destroy the current city and replace it with a brand new Roman settlement, granting you full control over it and help you expand your empire. Your new city will be vulnerable to attack, and it will not provide as many resources to your empire as a municipium, Civitas Sine Suffragio state, or an Annexed city, but will not have the Annexing disadvantages either.
+			</Text>
+		</Row>
+		
+		<!--Let the City Go-->
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_FREE_CITY">
+			<Text>Let {1_cityName} Go</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_FREE">
+			<Text>If the original owner is still on the map, it will get the city back. Otherwise, the city will no longer exist. You will no longer have any control over the city and you will have to conquer it again.</Text>
+		</Row>
+
+
+
+		<!--Municipium Pop-up-->
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM">
+			<Text> Angry Municipium</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_QUESTION">
+			<Text> People from {1_cityName} are angry.</Text>
+		</Row>
+
+
+		<Row Tag ="TXT_KEY_TEST_DIALOG_MUNICIPIUM_CITY">
+			<Text> People from {1_cityName} are angry.</Text>
+		</Row>
+
+
+		<!--Sacred Geese pop-up-->
+		<Row Tag ="TXT_KEY_TEST_DIALOG_GEESE_DESCRIPTION">
+			<Text>The Sacred Geese of Juno!</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_TEST_DIALOG_GEESE">
+			<Text>Hark! The Sacred Geese of Juno cry out at the Gauls' approach! Vae Victis!</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_TEST_DIALOG_GEESE_OK">
+			<Text>Let's Fight!</Text>
+		</Row>
+		
+		<!--Year 264 Pop-up-->
+
+		<Row Tag ="TXT_KEY_TEST_DIALOG_ROMAN_VICTORY_DESCRIPTION">
+			<Text>It's year 264 BCE!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TEST_ROMAN_VICTORY">
+			<Text>This is the year when Rome completed its conquest of the Italian Peninsula. If your conquest is still incomplete, you are second at best historically speaking.[NEWLINE]Too bad!</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TEST_DIALOG_ROMAN_VICTORY_OK">
+			<Text>Alright!</Text>
+		</Row>
+		
+	
+
+	</Language_en_US>
+	<Language_en_US>
+		<Update>
+			<Set Text ="	Lucius Iunius Brutus, founder of the Roman Republic, you drove the kings from and established a revolutionary new form of government. For centuries, you and your descendants defended the Republic and its ideals against invasion and spread its might throughout the world. But before you can achieve greatness, you must grow to be a regional power. To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores. The fate of Rome lies in your hands; are you up to the task?
+	[NEWLINE][NEWLINE]		GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you will empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+"/>
+			<Where Tag ="TXT_KEY_CIV5_DAWN_ROME_TEXT"/>
+		</Update>
+
+		<Update>
+			<Set Text="			Pyrrhus, King of Epirus, you came to the aid of Tarentum when it felt most threatened. Pulling up with 20 elephants and 25,000 men, you were the first organized threat to Rome from beyond the shores of Italy. Roman power meant nothing to you as your army marched north to the city. Magna Graecia wanes, but you can revive it by defeating Rome and conquering the Italian peninsula, from the Gulf of Tarentum to the lands of the Gauls in the north. To win the game, achieve a domination victory before 264 BCE. Otherwise, you shall be too weak to face Carthage when they arrive on your shores.
+	        [MEWLINE][NEWLINE]			GAME NOTE: Since annexation required a hefty cost in ancient Italy, it is most advisable to puppet conquered cities. Otherwise, you may empty your treasury. When puppeting, you will get three choices: municipium, civitas sine suffragio, or colony. Use these choices wisely to dominate all of Italy.
+"/>
+			<Where Tag="TXT_KEY_CIV5_DAWN_GREECE_TEXT"/>
+		</Update>
+	</Language_en_US>
+  
+</GameData>

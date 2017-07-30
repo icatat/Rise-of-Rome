@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2017 12:41:44 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	
+	
+  
+	<Language_en_US>
+
+		<!--MO MAIORUM BRANCH-->
+		<!--Mo Maiorum-->
+		<Update>
+			<Set Text ="Mo Maiorum"/>
+			<Where Tag ="TXT_KEY_POLICY_TRADITION"/>
+		</Update>
+		<Update>
+			<Set Text ="Mos Maiorum"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_TRADITION_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Mo Maiorum[ENDCOLOR][NEWLINE]Literally translating to “the customs of our ancestors,” mos maiorum represented the importance of tradition in Roman society. Greatly increases the rate of border expansion in cities (by diminishing the accumulated Culture needed for successive new tiles) and also grants +3 [ICON_CULTURE] in the Capital. Unlocks building the Hanging Gardens wonder.
+				 [NEWLINE]Adopting all Policies in the mos maiorum tree will grant +15% [ICON_FOOD] Growth in all cities and a free Aqueduct in your first four cities.
+				 [NEWLINE]Choosing this policy first will give you the honorific 'Lord' for male leaders and 'Lady' for female leaders.
+"/>
+			<Where Tag ="TXT_KEY_POLICY_TRADITION_HELP"/>
+		</Update>
+
+		<!--Patres-->
+		<Update>
+			<Set Text ="Patres"/>
+			<Where Tag ="TXT_KEY_POLICY_ARISTOCRACY"/>
+		</Update>
+		<Update>
+			<Set Text =""/>
+			<Where Tag ="TXT_KEY_POLICY_ARISTOCRACY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Patres[ENDCOLOR][ENDLINE]While we may call members of the Senate “Senators” today, in Roman times they were known as patres, or patres conscripti.Patres provides +15% [ICON_PRODUCTION] when building Wonders (any Era) and +1 [ICON_HAPPINESS_1] for every 10 Citizens in a City."/>
+			<Where Tag ="TXT_KEY_POLICY_ARISTOCRACY_HELP"/>
+		</Update>
+
+		<!--Gentes-->
+		<Update>
+			<Set Text ="Gentes"/>
+			<Where Tag ="TXT_KEY_POLICY_OLIGARCHY"/>
+		</Update>
+		<Update>
+			<Set Text ="Gentes"/>
+			<Where Tag ="TXT_KEY_POLICY_OLIGARCHY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Gentes[ENDCOLOR][NEWLINE]Gentes were the families of upper class Romans which held power in the republic. They generally traced their lineage to a famous, ancient ancestor.Garrisoned units cost no maintenance and cities with a garrison gain +50% [ICON_STRENGTH]Ranged Combat Strength"/>
+			<Where Tag ="TXT_KEY_POLICY_OLIGARCHY_HELP"/>
+		</Update>
+		
+		<!--XII Tables-->
+
+		<Update>
+			<Set Text ="XII Tables"/>
+			<Where Tag ="TXT_KEY_POLICY_LEGALISM"/>
+		</Update>
+		<Update>
+			<Set Text ="XII Tables"/>
+			<Where Tag ="TXT_KEY_POLICY_LEGALISM_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]XII Tables[ENDCOLOR][NEWLINE]The 12 (XII) tables, dated c. 451 BCE, were the first attempt to codify existing Roman values into law. Only fragments of text and secondary descriptions exist of them today.[NEWLINE] Provides a free [ICON_CULTURE] building in your first 4 cities."/>
+			<Where Tag ="TXT_KEY_POLICY_LEGALISM_HELP"/>
+		</Update>
+		
+		
+		<!--Decemviri-->
+		<Update>
+			<Set Text ="Decemviri"/>
+			<Where Tag ="TXT_KEY_POLICY_MONARCHY"/>
+		</Update>
+		<Update>
+			<Set Text ="Decemviri"/>
+			<Where Tag ="TXT_KEY_POLICY_MONARCHY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Decemviri[ENDCOLOR][NEWLINE]The decemviri were the men given the task of drawing up the XII tables.Adopting this policy provides +1 [ICON_GOLD] and -1 [ICON_HAPPINESS_4] for every 2 Citizens in the Capital"/>
+			<Where Tag ="TXT_KEY_POLICY_MONARCHY_HELP"/>
+		</Update>
+		
+		
+		<!--Patricii-->
+		<Update>
+			<Set Text ="Patricii"/>
+			<Where Tag ="TXT_KEY_POLICY_LANDED_ELITE"/>
+		</Update>
+		<Update>
+			<Set Text ="Patricii"/>
+			<Where Tag ="TXT_KEY_POLICY_LANDEDELITE_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Patricii[ENDCOLOR][NEWLINE]The Patricii, or the Patrician class, consisted of the richest and most powerful Roman policies. They had an obligation to serve the Roman state and its advancement.[NEWLINE] Adopting Patricii provides +10% [ICON_FOOD] Growth and +2 [ICON_FOOD] in the Capital only"/>
+			<Where Tag ="TXT_KEY_POLICY_LANDED_ELITE_HELP"/>
+		</Update>
+		
+		
+		<!--PLEBEIANISM BRANCH-->
+
+		<!--Plebeianism-->
+		<Update>
+			<Set Text ="Plebeinism"/>
+			<Where Tag ="TXT_KEY_POLICY_LIBERTY"/>
+		</Update>
+		<Update>
+			<Set Text ="Plebeinism"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_LIBERTY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Plebeinism[ENDCOLOR][NEWLINE]The Plebeian class existed below the ranking of the Patricians, but they had the ability to influence state policy. One recorded way of exerting influence was secession, a rare practice in which all plebeians left their duties in Rome and left the city in a standstill until the state offered concessions.[NEWLINE]Adopting Plebeianism will provide +1 [ICON_CULTURE] in every city. Unlocks building the Pyramids wonder.
+						[NEWLINE]Adopting all policies in the Plebeianism tree will grant a free Great Person of your choice near the Capital
+						[NEWLINE]Choosing this policy first will give you the honorific 'Consul'."/>
+			<Where Tag ="TXT_KEY_POLICY_LIBERTY_HELP"/>
+		</Update>
+		
+		<!--Ver Sacrum-->
+		<Update>
+			<Set Text ="Ver Sacrum"/>
+			<Where Tag ="TXT_KEY_POLICY_COLLECTIVE_RULE"/>
+		</Update>
+		<Update>
+			<Set Text ="Ver Sacrum"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_COLLECTIVERULE_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text = "[COLOR_POSITIVE_TEXT]Ver Sacrum[ENDCOLOR][ENDLINE]The ver sacrum, or sacred spring, was a mode of expansion for many Italic peoples including the Samnites and the Sabines. It involved taking all children born in one year and sending them out to found a new settlement on their own once they reached adulthood.[NEWLINE] Adopting this policy speeds the training of Settlers by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL]Capital"/>
+			<Where Tag = "TXT_KEY_POLICY_COLLECTIVE_RULE_HELP"/>
+		</Update>
+		
+		
+		<!--Concilium Plebis-->
+		<Update>
+			<Set Text ="Concilium Plebis"/>
+			<Where Tag ="TXT_KEY_POLICY_CITIZENSHIP"/>
+		</Update>
+		<Update>
+			<Set Text ="Concilium Plebis"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_CITIZENSHIP_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text = "[COLOR_POSITIVE_TEXT]Concilium Plebis[ENDCOLOR][NEWLINE]The concilium plebis was a legislative assembly of the plebeian class which could pass resolutions binding on all plebeians.[NEWLINE] Tile improvement construction rate increased by 25% and a Worker appears near the Capital."/>
+			<Where Tag = "TXT_KEY_POLICY_CITIZENSHIP_HELP"/>
+		</Update>
+
+		<!--Res Publica-->
+		<Update>
+			<Set Text ="Res Publica"/>
+			<Where Tag ="TXT_KEY_POLICY_REPUBLIC"/>
+		</Update>
+		<Update>
+			<Set Text ="Res Publica"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_REPUBLIC_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text = "[COLOR_POSITIVE_TEXT]Res Publica[ENDCOLOR][NEWLINE]Res Publica or “Public matter” was the term Romans used to describe their government in its entirety, including its connection to society as a whole.[NEWLINE]Adopting this policy provides +1 [ICON_PRODUCTION] in every City and +5% [ICON_PRODUCTION] in cities when constructing Buildings (including Wonders)"/>
+			<Where Tag = "TXT_KEY_POLICY_REPUBLIC_HELP"/>
+		</Update>
+
+
+		<!--Tribuni Plebis-->
+		<Update>
+			<Set Text ="Tribuni Plebis"/>
+			<Where Tag ="TXT_KEY_POLICY_REPRESENTATION"/>
+		</Update>
+		<Update>
+			<Set Text ="Tribuni Plebis"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_REPRESENTATION_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text = "[COLOR_POSITIVE_TEXT]Tribuni Plebis[ENDCOLOR][NEWLINE]The tribuni plebis, or tribunes of the plebs, were representatives of the plebeian class in the senate. They eventually gained a lot of power for their small number, including the ability to veto.[NEWLINE]Adopting this policy gives +1 [ICON_HAPPINESS_1] for each City you own connected to the [ICON_CAPITAL]Capital and -5% [ICON_HAPPINESS_4] from Citizens in non-occupied Cities."/>
+			<Where Tag = "TXT_KEY_POLICY_REPRESENTATION_HELP"/>
+		</Update>
+
+		<!--Aediles-->
+		<Update>
+			<Set Text ="Aediles"/>
+			<Where Tag ="TXT_KEY_POLICY_MERITOCRACY"/>
+		</Update>
+		<Update>
+			<Set Text ="Aedilas"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_MERITOCRACY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text = "[COLOR_POSITIVE_TEXT]Aediles[ENDCOLOR][NEWLINE]Aediles were Roman government officials charged with managing city infrastructure, food supply, public order, overseeing markets, and putting on games. The office originally grew out of a position in service to the plebeian class.[NEWLINE]Each city you found will increase the[ICON_CULTURE] cost of policies by 33% less than normal. Also starts a Golden Age (if one is already in progress, it is extended)."/>
+			<Where Tag = "TXT_KEY_POLICY_MERITOCRACY_HELP"/>
+		</Update>
+		
+		<!--VIRTUS BRANCH-->
+		<Update>
+			<Set Text ="Virtus"/>
+			<Where Tag ="TXT_KEY_POLICY_HONOR"/>
+		</Update>
+		<Update>
+			<Set Text ="Virtus"/>
+			<Where Tag ="TXT_KEY_CIV5_POLICY_HONOR_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Virtus[ENDCOLOR][NEWLINE]The Roman value of virtus was quite different from our concept of “virtue” today. Literally translating to “quality of a man” or “manliness,” virtus combined the aspects of a good man with those of a useful citizen. A man with virtus was strong, loyal, heroic in war, and could provide for his family.[NEWLINE] Choosing this policy first will give you the honorific 'The Great'.
+[NEWLINE]Adopting virtus gives a +33% combat bonus against Barbarians; from now on notifications will be provided when new Barbarian Encampments spawn in revealed territory. Gain [ICON_CULTURE] for the empire from each barbarian unit killed. (The Culture earned is equal to the Combat [ICON_STRENGTH] or [ICON_RANGE_STENGTH] of the defeated unit, whichever is greater.) Unlocks building the Statue of Zeus wonder.
+[NEWLINE]Adopting all policies in the virtus tree will grant [ICON_GOLD] for each enemy unit killed. (Note that this applies only to units killed directly by your actions. For example, you won't receive Gold for a unit killed by the effect of a Citadel.)”
+"/>
+			<Where Tag ="TXT_KEY_POLICY_HONOR_HELP"/>
+		</Update>
+		<!--Lex Sacrata-->
+		<Update>
+			<Set Text ="Lex Sacrata"/>
+			<Where Tag ="TXT_KEY_POLICY_WARRIOR_CODE"/>
+		</Update>
+		<Update>
+			<Set Text ="Lex Sacrata"/>
+			<Where Tag ="TXT_KEY_POLICY_WARRIORCODE_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Lex Sacrata[ENDCOLOR][NEWLINE]For Romans, a lex sacrata was a binding oath of service for statesmen. For other Italic peoples, it meant absolute dedication to the military, but for Rome it was used for many other situations. The tribunes of the plebs had to swear a lex sacrata, on which their authority rested.[NEWLINE]Adopting this policy gives +15%[ICON_PRODUCTION] Production when training Melee units and a [ICON_GREAT_GENERAL]Great General appears outside the [ICON_CAPITAL] Capital. Great Generals are earned 50% faster."/>
+			<Where Tag ="TXT_KEY_POLICY_WARRIOR_CODE_HELP"/>
+		</Update>
+
+		<!--Constantia-->
+		<Update>
+			<Set Text ="Constantia"/>
+			<Where Tag ="TXT_KEY_POLICY_DISCIPLINE"/>
+		</Update>
+		<Update>
+			<Set Text ="Constantia"/>
+			<Where Tag ="TXT_KEY_POLICY_DISCIPLINE_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Constantia[ENDCOLOR][ENDLINE]Constantia was the value of perseverance, going against all odds in service of the state, until you achieved success.Adopting this policy gives you +15% combat [ICON_STRENGTH] for melee units which have another military unit in an adjacent tile."/>
+			<Where Tag ="TXT_KEY_POLICY_DISCIPLINE_HELP"/>
+		</Update>
+
+		<!--Praetores-->
+		<Update>
+			<Set Text ="Praetores"/>
+			<Where Tag ="TXT_KEY_POLICY_MILITARY_CASTE"/>
+		</Update>
+		<Update>
+			<Set Text ="Praetores"/>
+			<Where Tag ="TXT_KEY_POLICY_MILITARYCASTE_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Praetores[ENDCOLOR][NEWLINE]Following the deposition of the monarchy, praetores are thought to have taken command of the Roman military.[NEWLINE]Each City with a garrison increases local city [ICON_HAPPINESS_1] by 1 and [ICON_CULTURE] by 2. Note that cities in Resistance are unaffected by this!"/>
+			<Where Tag ="TXT_KEY_POLICY_MILITARY_CASTE_HELP"/>
+		</Update>
+		
+		
+		<!--Pietas-->
+		<Update>
+			<Set Text ="Pietas"/>
+			<Where Tag ="TXT_KEY_POLICY_MILITARY_TRADITION"/>
+		</Update>
+		<Update>
+			<Set Text ="Pietas"/>
+			<Where Tag ="TXT_KEY_POLICY_MILITARYTRADITION_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Pietas[ENDCOLOR][NEWLINE]Pietas was the value of faith, but not necessarily in a religious sense. It also involved loyalty to one’s family, respect for the authority of parents, service to the state, and following the law.[NEWLINE]Military Units gain 50% more Experience from combat."/>
+			<Where Tag ="TXT_KEY_POLICY_MILITARY_TRADITION_HELP"/>
+		</Update>
+
+
+		<!--Stipendum Militum-->
+
+		<Update>
+			<Set Text ="Stipendum Militum"/>
+			<Where Tag ="TXT_KEY_POLICY_PROFESSIONAL_ARMY"/>
+		</Update>
+		<Update>
+			<Set Text ="Stipendum Militum"/>
+			<Where Tag ="TXT_KEY_POLICY_PROFESSIONALARMY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Stipendum Militum[ENDCOLOR][NEWLINE]Stipendum Militum policy, thought to have been adopted around the time of the siege of Veii, initiated government payment of soldiers.[NEWLINE][ICON_GOLD] of upgrading Military Units reduced by 33% and construct Barracks, Armories, and Military Academies 50% faster.”"/>
+			<Where Tag ="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP"/>
+		</Update>
+		
+		<!--Fides-->
+		<Update>
+			<Set Text ="Fides"/>
+			<Where Tag ="TXT_KEY_POLICY_PATRONAGE"/>
+		</Update>
+		<Update>
+			<Set Text ="Fides"/>
+			<Where Tag ="TXT_KEY_POLICY_PATRONAGE_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Fides[ENDCOLOR][NEWLINE]Fides was the Roman value of keeping true to one’s word and obligations, similar to trustworthiness. To have good fides, you have to pay your debts, keep your word, and perform your duties for the state. [NEWLINE]Choosing this policy first will give you the honorific 'The Enlightened'.
+Adopting fides makes your [ICON-INFLUENCE] with [ICON_CITY_STATE]City-States degrade 25% slower than normal. Unlocks building the Forbidden Palace wonder.
+Adopting all policies in the fides tree will cause allied  [ICON_CITY_STATE]City-States to occasionally gift you Great People."/>
+			<Where Tag ="TXT_KEY_POLICY_PATRONAGE_HELP"/>
+		</Update>
+		
+		<!--Gravitas-->
+
+		<Update>
+			<Set Text ="Gravitas"/>
+			<Where Tag ="TXT_KEY_POLICY_AESTHETICS"/>
+		</Update>
+		<Update>
+			<Set Text ="Gravitas"/>
+			<Where Tag ="TXT_KEY_POLICY_AESTHETICS_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text ="[COLOR_POSITIVE_TEXT]Gravitas[ENDCOLOR][NEWLINE]Gravitas was the roman value of self-control. To show gravitas was to act dignified in public and not give in to displays of affection or dancing.[NEWLINE]Choosing this policy first will give you the honorific 'Master' for male leaders and 'Mistress' for female leaders.
+[NEWLINE]Adopting gravitas allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building the Uffizi.
+[NEWLINE]Adopting all Policies in the gravitas tree doubles the theming bonus you receive from Museums and Wonders."/>
+			<Where Tag ="TXT_KEY_POLICY_AESTHETICS_HELP"/>
+		</Update>
+
+
+
+
+
+
+
+
+
+	</Language_en_US>
+	
+	
+</GameData>

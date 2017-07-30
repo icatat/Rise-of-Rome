@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/17/2014 9:42:37 AM -->
+<GameData>
+	<!-- TODO: Insert table creation example here. -->
+
+	<!-- TODO: Insert table data example here.-->
+
+	<!-- Enter your Game Data here. -->
+	<Units>
+		<!--Etruscan-->
+		<Row>
+			<Class>UNITCLASS_SETTLER</Class>
+			<Type>UNIT_ETRUSCAN_SETTLER</Type>
+			<Cost>20</Cost>
+			<Moves>5</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ETRUSCAN_SETTLER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_ETRUSCAN_SETTLER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SETTLER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ETRUSCAN_SETTLER</Help>
+			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
+			<Food>true</Food>
+			<Found>true</Found>
+			<CombatLimit>2</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<PortraitIndex>40</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_CARGO_SHIP</Class>
+			<Type>UNIT_ETRUSCAN_TRADEBOAT</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Cost>50</Cost>
+			<Moves>7</Moves>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_MERCHANT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ETRUSCAN_TRADEBOAT</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_ETRUSCAN_TRADEBOAT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ETRUSCAN_TRADEBOAT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ETRUSCAN_HELP_TRADEBOAT</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>3</XPValueDefense>
+			<Trade>true</Trade>
+			<Immobile>true</Immobile>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitArtInfo>ART_DEF_UNIT_CARGO_SHIP</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+
+		<!--SENONES-->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_SENONES_PHALANX_WARRIOR</Type>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Combat>30</Combat>
+			<Cost>70</Cost>
+			<FaithCost>70</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SENONES_PHALANX_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_SENONES_PHALANX_WARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SENONES_PHALANX_WARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SENONES_PHALANX_WARRIOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_CELT_PICTISH_WARRIOR</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_HORSEMAN</Class>
+			<Type>UNIT_SENONES_HORSEMAN_WARRIOR</Type>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Combat>20</Combat>
+			<Cost>70</Cost>
+			<FaithCost>20</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SENONES_HORSEMAN_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_SENONES_HORSEMAN_WARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SENONES_HORSEMAN_WARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SENONES_HORSEMAN_WARRIOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_KNIGHT</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_HORSEMAN</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+		
+		<!--Saminites-->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_SAMNITES_JAVELIN</Type>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Combat>11</Combat>
+			<Cost>80</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SAMNITES_JAVELIN</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_SAMNITES_JAVELIN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SAMNITES_JAVELIN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SAMNITES_JAVELIN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>4</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_PIKEMAN</UnitArtInfo>
+			<UnitFlagIconOffset>32</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_HORSEMAN</Class>
+			<Type>UNIT_SAMNITES_HORSEMAN_WARRIOR</Type>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Combat>25</Combat>
+			<Cost>80</Cost>
+			<FaithCost>10</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SAMNITES_HORSEMAN_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_SAMNITES_HORSEMAN_WARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SAMNITES_HORSEMAN_WARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SAMNITES_HORSEMAN_WARRIOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>4</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_HORSEMAN</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_SETTLER</Class>
+			<Type>UNIT_SAMNITES_SETTLER</Type>
+			<Cost>-20</Cost>
+			<Moves>5</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SAMNITES_SETTLER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_SAMNITES_SETTLER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SETTLER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SAMNITES_SETTLER</Help>
+			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
+			<Food>true</Food>
+			<Found>true</Found>
+			<CombatLimit>2</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT_SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<PortraitIndex>40</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+		
+		
+		<!--Greek Elephant-->
+		<Row>
+			<Class>UNITCLASS_HORSEMAN</Class>
+			<Type>UNIT_GREEK_FOREST_ELEPHANT</Type>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Combat>14</Combat>
+			<Cost>100</Cost>
+			<FaithCost>200</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GREEK_FOREST_ELEPHANT</Description>
+			<Civilopedia>TXT_KEY_CIV5_GREEK_FOREST_ELEPHANT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GREEK_FOREST_ELEPHANT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GREEK_FOREST_ELEPHANT</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CHIVALRY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_KNIGHT</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_CARTHAGE_AFRICANFOREST_ELEPHANT</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+		
+		<!--Picenum-->
+
+		<Row>
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_FARMER</Type>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Cost>50</Cost>
+			<Moves>2</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FARMER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_FARMER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FARMER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FARMER</Help>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<WorkRate>100</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+		
+		
+		<!--Veii-->
+		<Row>
+			<Class>UNITCLASS_SETTLER</Class>
+			<Type>UNIT_VEII_SETTLER</Type>
+			<Cost>20</Cost>
+			<Moves>5</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_VEII_SETTLER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_VEII_SETTLER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SETTLER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_VEII_SETTLER</Help>
+			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
+			<Food>true</Food>
+			<Found>true</Found>
+			<CombatLimit>2</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<PortraitIndex>40</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_CARGO_SHIP</Class>
+			<Type>UNIT_VEII_TRADEBOAT</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Cost>50</Cost>
+			<Moves>7</Moves>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_MERCHANT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_VEII_TRADEBOAT</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_VEII_TRADEBOAT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_VEII_TRADEBOAT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_VEII_HELP_TRADEBOAT</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>3</XPValueDefense>
+			<Trade>true</Trade>
+			<Immobile>true</Immobile>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitArtInfo>ART_DEF_UNIT_CARGO_SHIP</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		
+		<!--Latins-->
+		<Row>
+			<Class>UNITCLASS_GREAT_GENERAL</Class>
+			<Type>UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</Type>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_GENERAL</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</Description>
+			<Civilopedia>TXT_KEY_CIV5_GREATGENERALS_OCTAVIANUS_MAMILIUS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GREAT_OCTAVIANUS_MAMILIUS_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<GoldenAgeTurns>8</GoldenAgeTurns>
+			<DontShowYields>true</DontShowYields>
+			<UnitArtInfo>ART_DEF_UNIT_GENERAL</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>90</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
+		
+		<!--Sabines-->
+
+		<Row>
+			<Class>UNITCLASS_GREAT_GENERAL</Class>
+			<Type>UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</Type>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_GENERAL</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</Description>
+			<Civilopedia>TXT_KEY_CIV5_GREATGENERALS_APPIUS_HERDONIUS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GREAT_APPIUS_HERDONIUS_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<GoldenAgeTurns>8</GoldenAgeTurns>
+			<DontShowYields>true</DontShowYields>
+			<UnitArtInfo>ART_DEF_UNIT_GENERAL</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>90</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
+
+
+
+		<!--Lucania-->
+		<Row>
+			<Class>UNITCLASS_SCIENTIST</Class>
+			<Type>UNIT_SCIENTIST_PYTHAGORAS</Type>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SCIENTIST</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GREAT_SCIENTIST_PYTHAGORAS</Description>
+			<Civilopedia>TXT_KEY_CIV5_GREATSCIENTISTS_PYTHAGORAS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GREAT_SCIENTIST_PYTHAGORAS_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<GoldenAgeTurns>8</GoldenAgeTurns>
+			<NumFreeTechs>1</NumFreeTechs>
+			<UnitArtInfo>ART_DEF_UNIT_SCIENTIST</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>91</UnitFlagIconOffset>
+			<PortraitIndex>45</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
+
+
+	</Units>
+	
+	
+
+	<Unit_AITypes>
+		<!--Etruscan-->
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_SETTLER</UnitType>
+			<UnitAIType>UNITAI_SETTLER</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_SETTLER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_SETTLER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_TRADEBOAT</UnitType>
+			<UnitAIType>UNITAI_MERCHANT</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_TRADEBOAT</UnitType>
+			<UnitAIType>UNITAI_WORKBOAT</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FARMER</UnitType>
+			<UnitAIType>UNITAI_WORKER</UnitAIType>
+		</Row>
+
+
+		<!--Senones-->
+		<Row>
+			<UnitType>UNIT_SENONES_PHALANX_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_PHALANX_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_PHALANX_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_PHALANX_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_SENONES_HORSEMAN_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_HORSEMAN_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_HORSEMAN_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	<!--Samnites-->
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SAMNITES_HORSEMAN_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_HORSEMAN_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_HORSEMAN_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_SAMNITES_SETTLER</UnitType>
+			<UnitAIType>UNITAI_SETTLER</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SAMNITES_SETTLER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		
+		<!--Greek-->
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+
+		<!--Sabines-->
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</UnitType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
+		</Row>
+		
+		<!--Latins-->
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</UnitType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
+		</Row>
+		
+		<!--Lucania-->
+		<Row>
+			<UnitType>UNIT_GREAT_SCIENTIST_PYTHAGORAS</UnitType>
+			<UnitAIType>UNITAI_SCIENTIST</UnitAIType>
+		</Row>
+		
+	</Unit_AITypes>
+
+	
+
+	<Unit_Flavors>
+		
+		<!--Etruscans-->
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_SETTLER</UnitType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_SETTLER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_TRADEBOAT</UnitType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_TRADEBOAT</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_TRADEBOAT</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ETRUSCAN_TRADEBOAT</UnitType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		
+		<!--Senones-->
+		<Row>
+			<UnitType>UNIT_SENONES_PHALANX_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_PHALANX_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_HORSEMAN_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_HORSEMAN_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SENONES_HORSEMAN_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		
+		<!--Seminites-->
+
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FARMER</UnitType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SCIENTIST_PYTHAGORAS</UnitType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+	</Unit_Flavors>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_FARMER</UnitType>
+			<BuildType>BUILD_PLANTATION</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<PromotionType>PROMOTION_BARRAG_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+			<PromotionType>PROMOTION_BARRAG_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_HORSEMAN_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_BARRAG_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAMNITES_HORSEMAN_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_BARRAG_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_FEARED_ELEPHANT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_SPAWN_GENERALS_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</UnitType>
+			<UniqueName>TXT_KEY_UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</UnitType>
+			<UniqueName>TXT_KEY_UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SCIENTIST_PYTHAGORAS</UnitType>
+			<UniqueName>TXT_KEY_UNIT_GREAT_SCIENTIST_PYTHAGORAS</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+
+	<Units>
+		<Delete Type="UNIT_TRIREME" />
+	</Units>
+
+	<!-- Remove any entries that reference the mech in Units.	-->
+	<UnitClasses>
+		<Delete Type="UNITCLASS_TRIREME" />
+	</UnitClasses>
+
+	<Unit_AITypes>
+		<Delete UnitType="UNIT_TRIREME" />
+	</Unit_AITypes>
+
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_TRIREME" />
+	</Unit_FreePromotions>
+
+	<Unit_Flavors>
+		<Delete UnitType="UNIT_TRIREME" />
+	</Unit_Flavors>
+	
+	<Unit_ClassUpgrades>
+		<Delete UnitType="UNIT_TRIREME" />
+	</Unit_ClassUpgrades>
+	
+	<UnitGameplay2DScripts>
+		<Delete UnitType="UNIT_TRIREME" />
+	</UnitGameplay2DScripts>
+</GameData>
+

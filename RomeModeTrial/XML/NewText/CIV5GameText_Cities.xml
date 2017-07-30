@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2017 1:16:23 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+
+
+	<Language_en_US>
+
+		<!--Aequi-->
+		<Row Tag="TXT_KEY_CITY_NAME_AEQUI_MOUNT_ALGIDUS">
+			<Text>Mount Algidus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AEQUI_BOLAE">
+			<Text>Bolae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AEQUI_CLITERNIA">
+			<Text>Cliternia</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_AEQUI_NERSAE">
+			<Text>Nersae</Text>
+		</Row>
+
+
+
+		<!--Etruscan-->
+		<Row Tag="TXT_KEY_CITY_NAME_POPULONIA">
+			<Text>Populonia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VULCI">
+			<Text>Vulci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LUNA">
+			<Text>Luna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CAPUA">
+			<Text>Capua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ILVA">
+			<Text>Ilva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VOSINII">
+			<Text>Vosinii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VOLATARRAE">
+			<Text>Voltarrae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FELSINA">
+			<Text>Felsina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TARQUINII">
+			<Text>Tarquinii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CAERE">
+			<Text>Caere</Text>
+		</Row>
+
+
+		<!--Latins-->
+		<Row Tag="TXT_KEY_CITY_NAME_TUSCULUM">
+			<Text>Tusculum</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_LAVINIUM">
+			<Text>Lavinium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FIDENAE">
+			<Text>Fidanae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LANUVIUM">
+			<Text>Lanuvium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERNICI">
+			<Text>Hernici</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBUR_PRAENESTE">
+			<Text>Tibur Praeneste</Text>
+		</Row>
+	<!--Rome-->
+
+		<Row Tag ="TXT_KEY_CITY_NAME_ROME_OSTIA">
+			<Text>Ostia</Text>
+		</Row>
+		
+	<!--Semnites-->
+
+		<Row Tag="TXT_KEY_CITY_NAME_BENEVENTUM">
+			<Text>Beneventum</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_ALLIFAE">
+			<Text>Allifae</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_AESERNIA">
+			<Text>Aersernia</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_VENAFRUM">
+			<Text>Venafrum</Text>
+		</Row>
+		
+	<!--Senones-->
+		
+		<Row Tag="TXT_KEY_CITY_NAME_SENA_GALLICA">
+			<Text>Sena Gallica</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_SENONES_OSTRA">
+			<Text>Ostra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENONES_SUASA">
+			<Text>Suasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENONES_AESIS">
+			<Text>Aesis</Text>
+		</Row>
+		
+	<!--Umbrians-->
+		
+		<Row Tag="TXT_KEY_CITY_NAME_UMBRIANS_SENTINUM">
+			<Text>Sentinum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMBRIANS_NEQUINUM">
+			<Text>Nequinum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMBRIANS_SPOLETIUM">
+			<Text>Spoletium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMBRIANS_PERUSIA">
+			<Text>Perusia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMBRIANS_IGUVIUM">
+			<Text>Iguvium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMBRIANS_CAMERINUM">
+			<Text>Perusia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMBRIANS_OCRICULUM">
+			<Text>Ocriculum</Text>
+		</Row>
+		
+	<!--Volsci-->
+		<Row Tag="TXT_KEY_CITY_NAME_ANTIUM_VOLSCI">
+			<Text>Antium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FERENTIUM">
+			<Text>Ferentium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ARPINUM_VOLSCI">
+			<Text>Arpinum</Text>
+		</Row>
+	<!--Veii-->
+
+		<Row Tag="TXT_KEY_CITY_NAME_VEII_VEII">
+			<Text>Veii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VEII_GABII">
+			<Text>Gabii</Text>
+		</Row>
+
+	<!--Sabines-->
+
+		<Row Tag="TXT_KEY_CITY_NAME_SABINES_TESTRUNA">
+			<Text>Testruna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SABINES_PALOMBARA">
+			<Text>Palombara</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_SABINES_SABINA">
+			<Text>Sabina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SABINES_NOMENTUM">
+			<Text>Nomentum</Text>
+		</Row>
+
+	</Language_en_US>
+
+	<!--Greek Colonies-->
+	<Language_en_US>
+
+		<Row Tag ="TXT_KEY_CITY_NAME_GREEK_TARENTUM">
+			<Text>Tarentum</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITY_NAME_HERACLEA">
+			<Text>Heraclea</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITY_NAME_NAXUS">
+			<Text>Naxus</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITY_NAME_GREEK_SYRACUSE">
+			<Text>Syracuse</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITY_NAME_GREEK_THURII">
+			<Text>Thurii</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITY_NAME_GREEK_LOCRI">
+			<Text>Locri</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITY_NAME_GREEK_RHEGIUM">
+			<Text>Rhegium</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITY_NAME_GREEK_CROTON">
+			<Text>Croton</Text>
+		</Row>
+
+		<!--Picenum-->
+
+		<Row Tag="TXT_KEY_CITY_NAME_PICENUM_ASCULUM">
+			<Text>Asculum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PICENUM_FIRMUM">
+			<Text>Firmum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PICENUM_PICENUM">
+			<Text>Picenum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PICENUM_NUMANA">
+			<Text>Numana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PICENUM_FALERIO">
+			<Text>Falerio</Text>
+		</Row>
+
+		<!--Lucania-->
+
+		<Row Tag="TXT_KEY_CITY_NAME_LUCANIA_ACERUNTIA">
+			<Text>Aceruntia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LUCANIA_BANTIA">
+			<Text>Bantia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LUCANIA_IRSINA">
+			<Text>Irsina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LUCANIA_SILVIUM">
+			<Text>Silvium</Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

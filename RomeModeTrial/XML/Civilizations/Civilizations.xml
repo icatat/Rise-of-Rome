@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2017 10:10:04 AM -->
+<GameData>
+	
+	<Civilizations>
+	
+		<Row>
+			<Type>CIVILIZATION_ETRUSCAN</Type>
+			<Description>TXT_KEY_CIV_ETRUSCAN_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_ETRUSCAN_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_ETRUSCAN_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_ETRUSCAN</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_ETRUSCAN_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<LeaderheadType>LEADER_ETRUSCAN</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_POPULONIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VULCI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LUNA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CAPUA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ILVA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VOSINII</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VOLATARRAE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FELSINA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TARQUINII</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CAERE</CityName>
+		</Row>
+	
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<UnitType>UNIT_ETRUSCAN_SETTLER</UnitType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_ETRUSCAN</CivilizationType>
+			<UnitType>UNIT_ETRUSCAN_TRADEBOAT</UnitType>
+			<UnitClassType>UNITCLASS_CARGO_SHIP</UnitClassType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+<!--Semnites Color-->
+	
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SEMNITES_ICON</Type>
+			<Red>0.129</Red>
+			<Green>0.588</Green>
+			<Blue>0.603</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_SEMNITES_BACKGROUND</Type>
+			<Red>0.557</Red>
+			<Green>212.000</Green>
+			<Blue>0.831</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SEMNITES</Type>
+			<PrimaryColor>COLOR_PLAYER_SEMNITES_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SEMNITES_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<!--Samnites-->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SEMNITES</Type>
+			<Description>TXT_KEY_CIV_SEMNITES_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SEMNITES_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SEMNITES_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_SEMNITES</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_SEMNITES</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_SAMNITES_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<LeaderheadType>LEADER_SEMNITES</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BENEVENTUM</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ALLIFAE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AESERNIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VENAFRUM</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_SAMNITES_JAVELIN</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+			<UnitType>UNIT_SAMNITES_HORSEMAN_WARRIOR</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SEMNITES</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitType>UNIT_SAMNITES_SETTLER</UnitType>
+		</Row>
+
+	</Civilization_UnitClassOverrides>
+
+
+<!--Senones-->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SENONES</Type>
+			<Description>TXT_KEY_CIV_SENONES_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SENONES_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SENONES_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_SENONES</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_CELTS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>EXPANSION_CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>EXPANSION_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapCelts512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_SENONES_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Boudicca.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_CELTS</DawnOfManAudio>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<LeaderheadType>LEADER_SENONES</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SENA_GALLICA</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SENONES_OSTRA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SENONES_SUASA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SENONES_AESIS</CityName>
+		</Row>
+
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_SENONES_PHALANX_WARRIOR</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENONES</CivilizationType>
+			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+			<UnitType>UNIT_SENONES_HORSEMAN_WARRIOR</UnitType>
+		</Row>
+
+	</Civilization_UnitClassOverrides>
+	
+
+	<!-- Latins-->
+
+
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_LATINS</Type>
+			<Description>TXT_KEY_CIV_LATINS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_LATINS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_LATINS_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_LATINS</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_LATINS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<LeaderheadType>LEADER_LATINS</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TUSCULUM</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LAVINIUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FIDENAE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LANUVIUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERNICI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TIBUR_PRAENESTE</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_TEMPLE_DIANA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_LATINS</CivilizationType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<UnitType>UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<!--Volsci-->
+
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_VOLSCI</Type>
+			<Description>TXT_KEY_CIV_VOLSCI_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_VOLSCI_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_VOLSCI_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_VOLSCI</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_VOLSCI_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<LeaderheadType>LEADER_VOLSCI</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ANTIUM_VOLSCI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FERENTIUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ARPINUM_VOLSCI</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GREAT_WALL</BuildingClassType>
+			<BuildingType>BUILDING_VOLSCIAN_WALL</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VOLSCI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_VOLSCIAN_BARRACKS</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<Civilization_UnitClassOverrides>
+	</Civilization_UnitClassOverrides>
+
+<!--Aequi-->
+
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_AEQUI</Type>
+			<Description>TXT_KEY_CIV_AEQUI_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_AEQUI_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_AEQUI_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_AEQUI</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_AEQUI_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<LeaderheadType>LEADER_AEQUI</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AEQUI_MOUNT_ALGIDUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AEQUI_BOLAE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AEQUI_CLITERNIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AEQUI_NERSAE</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GREAT_WALL</BuildingClassType>
+			<BuildingType>BUILDING_AEQUI_WALL</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AEQUI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_AEQUI_BARRACKS</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+<!--Umbrians-->
+
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_UMBRIANS</Type>
+			<Description>TXT_KEY_CIV_UMBRIANS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_UMBRIANS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_UMBRIANS_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_UMBRIANS</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_UMBRIANS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<LeaderheadType>LEADER_UMBRIANS</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UMBRIANS_SENTINUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UMBRIANS_NEQUINUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UMBRIANS_SPOLETIUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UMBRIANS_PERUSIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UMBRIANS_IGUVIUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UMBRIANS_CAMERINUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UMBRIANS_OCRICULUM</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_TEMPLE_FRATRES_ATIEDII</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UMBRIANS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_TEMPLE_SERES</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	
+	
+	
+	<!--Veii-->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_VEII</Type>
+			<Description>TXT_KEY_CIV_VEII_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_VEII_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_VEII_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_VEII</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_VEII_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<LeaderheadType>LEADER_VEII</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VEII_VEII</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VEII_GABII</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<UnitType>UNIT_VEII_SETTLER</UnitType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_VEII</CivilizationType>
+			<UnitType>UNIT_VEII_TRADEBOAT</UnitType>
+			<UnitClassType>UNITCLASS_CARGO_SHIP</UnitClassType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<!--Sabines-->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SABINES</Type>
+			<Description>TXT_KEY_CIV_SABINES_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SABINES_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SABINES_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_SABINES</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_SABINES_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<LeaderheadType>LEADER_SABINES</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SABINES_TESTRUNA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SABINES_PALOMBARA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SABINES_SABINA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SABINES_NOMENTUM</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<TechType>TECH_AGRICULTRE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<UnitType>UNIT_GREAT_GENERAL_APPIUS_HERDONIUS</UnitType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GOVERNAMENTAL</BuildingClassType>
+			<BuildingType>BUILDING_CAPITOLIUM_VETUS</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SABINES</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_TEMPLE_QUIRINUS</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	
+
+	<!--Lucania-->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_LUCANIA</Type>
+			<Description>TXT_KEY_CIV_LUCANIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_LUCANIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_LUCANIA_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_LUCANIA</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_LUCANIA_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<LeaderheadType>LEADER_LUCANIA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LUCANIA_ACERUNTIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LUCANIA_BANTIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LUCANIA_IRSINA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LUCANIA_SILVIUM</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SCIENTIST</UnitClassType>
+			<UnitType>UNIT_SCIENTIST_PYTHAGORAS</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_LUCANIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_TEMPLE_MUFITIS_UTIANA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+
+	<!--Picenum-->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_PICENUM</Type>
+			<Description>TXT_KEY_CIV_PICENUM_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_PICENUM_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_PICENUM_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_PICENUM</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ROME</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRome512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_PICENUM_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Augustus.dds</DawnOfManImage>
+			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_ROME</DawnOfManAudio>-->
+		</Row>
+	</Civilizations>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<LeaderheadType>LEADER_PICENUM</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PICENUM_ASCULUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PICENUM_FIRMUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PICENUM_PICENUM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PICENUM_FALERIO</CityName>
+		</Row>
+
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<TechType>TECH_IRON_WORKING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+			<UnitType>UNIT_FARMER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PICENUM</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_TEMPLE_DEA_CUPRA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+
+	<!--UPDATES TO CIVILIZATIONS EXISTANT IN THE BASE GAME-->
+	<Civilization_Leaders>
+		<Update>
+			<Where CivilizationType ="CIVILIZATION_ROME"/>
+			<Set>
+				<LeaderheadType>LEADER_BRUTUS</LeaderheadType>
+			</Set>
+		</Update>
+	</Civilization_Leaders>
+
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ROME_OSTIA</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Civilization_Leaders>
+		<Update>
+			<Where CivilizationType ="CIVILIZATION_GREECE"/>
+			<Set>
+				<LeaderheadType>LEADER_PYRRHUS</LeaderheadType>
+			</Set>
+		</Update>
+	</Civilization_Leaders>
+	
+	<Civilization_CityNames>
+		<Delete CivilizationType ="CIVILIZATION_GREECE"/>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GREEK_TARENTUM</CityName>
+		</Replace>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERACLEA</CityName>
+		</Replace>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NAXUS</CityName>
+		</Replace>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GREEK_SYRACUSE</CityName>
+		</Replace>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GREEK_THURII</CityName>
+		</Replace>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GREEK_LOCRI</CityName>
+		</Replace>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GREEK_RHEGIUM</CityName>
+		</Replace>
+		<Replace>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GREEK_CROTON</CityName>
+		</Replace>
+	</Civilization_CityNames>
+
+
+	<Civilization_UnitClassOverrides>
+			<Row>
+				<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+				<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+				<UnitType>UNIT_GREEK_FOREST_ELEPHANT</UnitType>
+			</Row>
+	</Civilization_UnitClassOverrides>
+
+
+</GameData>

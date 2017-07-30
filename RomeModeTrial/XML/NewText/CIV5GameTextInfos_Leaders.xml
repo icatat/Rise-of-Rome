@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2017 1:03:04 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+
+		<!--Semnites-->
+		<Row Tag="TXT_KEY_LEADER_SEMNITES">
+			<Text>Comius Castronius</Text>
+		</Row>
+
+		<!--Aeiqui-->
+		<Row Tag="TXT_KEY_LEADER_AEQUI">
+			<Text>Vetius Messius</Text>
+		</Row>
+		
+		
+		<!--Cincinnatus-->
+		<Row Tag="TXT_KEY_LEADER_BRUTUS">
+			<Text>L. Iunius Brutus</Text>
+		</Row>
+		
+		
+		<!--Etruscan-->
+
+		<Row Tag="TXT_KEY_LEADER_ETRUSCAN">
+			<Text>Thefariae Velianas King of Caere</Text>
+		</Row>
+		
+		<!--Greece-->
+
+		<Row Tag="TXT_KEY_LEADER_PYRRHUS">
+			<Text>Pyrrhus of Epirus</Text>
+		</Row>
+		
+		<!--Latins-->
+		<Row Tag="TXT_KEY_LEADER_LATINS">
+			<Text>Egerius Baebius</Text>
+		</Row>
+		
+		
+		<!--Senones-->
+
+		<Row Tag="TXT_KEY_LEADER_SENONES">
+			<Text>Brennus</Text>
+		</Row>
+		
+		<!--Umbrians-->
+
+		<Row Tag="TXT_KEY_LEADER_UMBRIANS">
+			<Text>Ahal Trutitus</Text>
+		</Row>
+		
+		
+		<!--Volscii-->
+
+		<Row Tag="TXT_KEY_LEADER_VOLSCI">
+			<Text>Coriolanus</Text>
+		</Row>
+
+		<!--Veii-->
+
+		<Row Tag="TXT_KEY_LEADER_VEII">
+			<Text>King Lars Tolumnius</Text>
+		</Row>
+
+
+		<!--Sabines-->
+
+		<Row Tag="TXT_KEY_LEADER_SABINES">
+			<Text>Titus Tatius</Text>
+		</Row>
+
+		<!--Lucania-->
+
+		<Row Tag="TXT_KEY_LEADER_LUCANIA">
+			<Text>Lamiscus</Text>
+		</Row>
+
+		<!--Picenum-->
+
+		<Row Tag="TXT_KEY_LEADER_PICENUM">
+			<Text>Gnaeus Pompeius</Text>
+		</Row>
+
+
+
+
+	</Language_en_US>
+</GameData>

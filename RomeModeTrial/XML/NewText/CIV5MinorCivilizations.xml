@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/15/2017 4:17:51 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+		
+		
+		<!--NEAPOLIS>-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_NEAPOLIS">
+			<Text>Neapolis</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_NEAPOLIS_ADJ">
+			<Text>Neapolis</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_NEAPOLIS_TEXT">
+			<Text>Neapolis</Text>
+		</Row>
+
+		<!--VESTINI-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_VESTINI">
+			<Text>Vestini</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_VESTINI_ADJ">
+			<Text>Vestini</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_VESTINI_TEXT">
+			<Text>Vestini</Text>
+		</Row>
+
+		<!--PAELIGNI-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_PAELIGNI">
+			<Text>Paeligni</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_PAELIGNI_ADJ">
+			<Text>Paeligni</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_PAELIGNI_TEXT">
+			<Text>Paeligni</Text>
+		</Row>
+
+
+		<!--MARRUCINI-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_MARRUCINI">
+			<Text>Marrucini</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_MARRUCINI_ADJ">
+			<Text>Marrucini</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_MARRUCINI_TEXT">
+			<Text>Marrucini</Text>
+		</Row>
+
+
+		<!--PRAETUTTI-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_PRAETUTTII">
+			<Text>Praetuttii</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_PRAETUTTII_ADJ">
+			<Text>Praetuttii</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_PRAETUTTII_TEXT">
+			<Text>Praetuttii</Text>
+		</Row>
+
+		<!--FRENTANI-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_FRENTANI">
+			<Text>Frentani</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_FRENTANI_ADJ">
+			<Text>Frentani</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_FRENTANI_TEXT">
+			<Text>Frentani</Text>
+		</Row>
+
+		<!--MARSI-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_MARSI">
+			<Text>Marsi</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_MARSI_ADJ">
+			<Text>Marsi</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_MARSI_TEXT">
+			<Text>Marsi</Text>
+		</Row>
+
+		<!--BRUTII-->
+
+		<Row Tag ="TXT_KEY_CITYSTATE_BRUTII">
+			<Text>Brutii</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CITYSTATE_BRUTII_ADJ">
+			<Text>Brutii</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_BRUTII_TEXT">
+			<Text>Brutii</Text>
+		</Row>
+		
+	</Language_en_US>
+  
+</GameData>

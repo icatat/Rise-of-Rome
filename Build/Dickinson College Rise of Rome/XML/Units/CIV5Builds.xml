@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/17/2017 3:37:26 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_CONSTRUCTION"/>
+			<Where ImprovementType ="IMPROVEMENT_FORT"/>
+		</Update>
+	</Builds>
+	
+</GameData>

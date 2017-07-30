@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/9/2014 3:30:21 PM -->
+<GameData>
+	<!-- TODO: Insert table creation example here. -->
+
+	<!-- TODO: Insert table data example here.-->
+
+	<!-- Enter your Game Data here. -->
+	<GameSpeed_Turns>
+		<Delete GameSpeedType="GAMESPEED_MARATHON"/>
+		<Delete GameSpeedType="GAMESPEED_STANDARD"/>
+		<Delete GameSpeedType="GAMESPEED_EPIC"/>
+		<Delete GameSpeedType="GAMESPEED_QUICK"/>
+		<Replace>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>6</MonthIncrement>
+			<TurnsPerIncrement>446</TurnsPerIncrement>
+		</Replace> 
+		<Replace>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>6</MonthIncrement>
+			<TurnsPerIncrement>446</TurnsPerIncrement>
+		</Replace>
+		<Replace>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>6</MonthIncrement>
+			<TurnsPerIncrement>446</TurnsPerIncrement>
+		</Replace>
+		<Replace>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>6</MonthIncrement>
+			<TurnsPerIncrement>446</TurnsPerIncrement>
+		</Replace>
+	</GameSpeed_Turns>
+
+	<GameSpeeds>
+		
+		<Update>
+			<Set ResearchPercent="900"/>
+			<Where Type="GAMESPEED_MARATHON"/>
+		</Update>
+		<Update>
+			<Set ResearchPercent="300"/>
+			<Where Type="GAMESPEED_STANDARD"/>
+		</Update>
+		<Update>
+			<Set ResearchPercent="450"/>
+			<Where Type="GAMESPEED_EPIC"/>
+		</Update>
+		<Update>
+			<Set ResearchPercent="201"/>
+			<Where Type="GAMESPEED_QUICK"/>
+		</Update>
+	</GameSpeeds>
+</GameData>

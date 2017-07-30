@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/13/2017 3:50:16 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+		
+		
+		<!--TIN-->
+
+		<Row Tag ="TXT_KEY_RESOURCE_TIN">
+			<Text>Tin</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_RESOURCE_TIN_TEXT">
+			<Text>Tin</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_RESOURCE_TIN_HELP">
+			<Text>Tin</Text>
+		</Row>
+		
+		<!--Flex-->
+		<Row Tag ="TXT_KEY_RESOURCE_FLEX">
+			<Text>Flex</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_RESOURCE_FLEX_TEXT">
+			<Text>Flex</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_RESOURCE_FLEX_HELP">
+			<Text>Flex</Text>
+		</Row>
+
+		<!--OLIVES-->
+		<Row Tag ="TXT_KEY_RESOURCE_OLIVES">
+			<Text>Olives</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_RESOURCE_OLIVES_TEXT">
+			<Text>Olives</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_RESOURCE_OLIVES_HELP">
+			<Text>Olives</Text>
+		</Row>
+
+
+
+
+	</Language_en_US>
+  
+</GameData>

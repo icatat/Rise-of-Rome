@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2017 1:41:21 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+
+	<Language_en_US>
+
+		<!--Etrsucan Settler-->
+		<Row Tag ="TXT_KEY_UNIT_ETRUSCAN_SETTLER">
+			<Text>Etruscan Settler</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_ANTIQUITY_ETRUSCAN_SETTLER_TEXT">
+			<Text>Etruscan Settler</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_ANTIQUITY_ETRUSCAN_SETTLER_STRATEGY">
+			<Text>Etruscan Settler allows you to travel 5 tiles at once, for quicker expnasion of your territory. </Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_HELP_ETRUSCAN_SETTLER">
+			<Text>Etruscan Settler</Text>
+		</Row>
+		
+		<!--Etruscan Tradeboat-->
+
+		<Row Tag ="TXT_KEY_UNIT_ETRUSCAN_TRADEBOAT">
+			<Text>Etruscan Trade Boat</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_ETRUSCAN_TRADEBOAT_STRATEGY">
+			<Text>Etruscan TradeBoat allows you to travel 7 tiles on water.</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_ANTIQUITY_ETRUSCAN_TRADEBOAT_TEXT">
+			<Text>Etruscan Trade Boat</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_ETRUSCAN_HELP_TRADEBOAT">
+			<Text>Etruscan Trade Boat</Text>
+		</Row>
+		
+		<!--SENONES Phalanx-->
+
+		<Row Tag ="TXT_KEY_UNIT_SENONES_PHALANX_WARRIOR">
+			<Text>Gallic Phalanx Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_SENONES_PHALANX_WARRIOR_STRATEGY">
+			<Text>Specialized Senones Melee Unit</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_SENONES_PHALANX_WARRIOR_TEXT">
+			<Text>Gallic Phalanx Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_HELP_SENONES_PHALANX_WARRIOR">
+			<Text>Gallic Phalanx Warrior</Text>
+		</Row>
+
+		<!--SENONES Horseman-->
+
+		<Row Tag ="TXT_KEY_UNIT_SENONES_HORSEMAN_WARRIOR">
+			<Text>Gallic Horseman Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_SENONES_HORSEMAN_WARRIOR_STRATEGY">
+			<Text>Gallic Horseman Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_SENONES_HORSEMAN_WARRIOR_TEXT">
+			<Text>Gallic Horseman Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_HELP_SENONES_HORSEMAN_WARRIOR">
+			<Text>Gallic Horseman Warrior</Text>
+		</Row>
+
+		<!--SAMINITES Javelin-->
+
+		<Row Tag ="TXT_KEY_UNIT_SAMNITES_JAVELIN">
+			<Text>Javelin Fighter</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_SAMNITES_JAVELIN_STRATEGY">
+			<Text>Javelin Fighter</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIVILOPEDIA_UNITS_SAMNITES_JAVELIN_TEXT">
+			<Text>Javelin Fighter</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_HELP_SAMNITES_JAVELIN">
+			<Text>Javelin Fighter</Text>
+		</Row>
+		
+		<!-- SAMNITES horseman-->
+		<Row Tag ="TXT_KEY_UNIT_SAMNITES_HORSEMAN_WARRIOR">
+			<Text>Samnite Horseman Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_SAMNITES_HORSEMAN_WARRIOR_STRATEGY">
+			<Text>Samnite Horseman Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_SAMNITES_HORSEMAN_WARRIOR_TEXT">
+			<Text>Samnite Horseman Warrior</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_HELP_SAMNITES_HORSEMAN_WARRIOR">
+			<Text>Samnite Horseman Warrior</Text>
+		</Row>
+
+		<!--Semnites Settler-->
+		<Row Tag ="TXT_KEY_UNIT_SAMNITES_SETTLER">
+			<Text>Samnite Settler</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_ANTIQUITY_SAMNITES_SETTLER_TEXT">
+			<Text>Samnite Settler</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_HELP_SAMNITES_SETTLER">
+			<Text>Samnite Settler</Text>
+		</Row>
+		
+		<!--Greek Elephant-->
+		<Row Tag ="TXT_KEY_UNIT_GREEK_FOREST_ELEPHANT">
+			<Text>Greek Elephant</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_GREEK_FOREST_ELEPHANT_TEXT">
+			<Text>Greek Elephant</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_GREEK_FOREST_ELEPHANT_STRATEGY">
+			<Text>Greek Elephant</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_UNIT_HELP_GREEK_FOREST_ELEPHANT">
+			<Text>Greek Elephant</Text>
+		</Row>
+		
+		<!--Picenum-->
+
+		<Row Tag ="TXT_KEY_UNIT_FARMER">
+			<Text>Farmer</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_CIV5_ANTIQUITY_FARMER_TEXT">
+			<Text>Farmer</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_UNIT_FARMER_STRATEGY">
+			<Text>Farmer</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_UNIT_HELP_FARMER">
+			<Text>Farmer</Text>
+		</Row>
+
+
+		<!--Veii Settler-->
+		<Row Tag ="TXT_KEY_UNIT_VEII_SETTLER">
+			<Text>Veientine Settler</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_ANTIQUITY_VEII_SETTLER_TEXT">
+			<Text>Veientine Settler</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_HELP_VEII_SETTLER">
+			<Text>Veientine Settler</Text>
+		</Row>
+
+		<!--Veii Tradeboat-->
+
+		<Row Tag ="TXT_KEY_UNIT_VEII_TRADEBOAT">
+			<Text>Veii Trade Boat</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_VEII_TRADEBOAT_STRATEGY">
+			<Text>Veii TradeBoat Strategy</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_ANTIQUITY_VEII_TRADEBOAT_TEXT">
+			<Text>Something about the veii TradeBoat history</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_VEII_HELP_TRADEBOAT">
+			<Text>Help on Veii TradeBoat</Text>
+		</Row>
+		
+		
+		<!--Latins Great General-->
+
+		<Row Tag ="TXT_KEY_UNIT_GREAT_GENERAL_OCTAVIANUS_MAMILIUS">
+			<Text>Octavianus Mamilus</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_GREAT_OCTAVIANUS_MAMILIUS_STRATEGY">
+			<Text>Octavianus Mamilus</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_GREATGENERALS_OCTAVIANUS_MAMILIUS_TEXT">
+			<Text>Octavianus Mamilus</Text>
+		</Row>
+		
+		
+		<!--Sabines-->
+
+		<Row Tag ="TXT_KEY_UNIT_GREAT_GENERAL_APPIUS_HERDONIUS">
+			<Text>Appius Herdonius</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_GREAT_APPIUS_HERDONIUS_STRATEGY">
+			<Text>Appius Herdonius</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_GREATGENERALS_APPIUS_HERDONIUS_TEXT">
+			<Text>Appius Herdonius</Text>
+		</Row>
+	
+
+		<!--Lucania-->
+		<Row Tag ="TXT_KEY_UNIT_GREAT_SCIENTIST_PYTHAGORAS">
+			<Text>Pythagoras</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_CIV5_GREATSCIENTISTS_PYTHAGORAS_TEXT">
+			<Text>Pythagoras</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_UNIT_GREAT_SCIENTIST_PYTHAGORAS_STRATEGY">
+			<Text>Pythagoras</Text>
+		</Row>
+
+
+
+	</Language_en_US>
+  
+</GameData>

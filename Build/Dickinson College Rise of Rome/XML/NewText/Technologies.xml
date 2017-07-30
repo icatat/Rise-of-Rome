@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/14/2017 11:30:08 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+		<Row Tag ="TXT_KEY_TECH_TEXTILE_TITLE">
+			<Text>Textile</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_TECH_TEXTILE_DESC">
+			<Text>Create woolen and linen clothes</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_TECH_TEXTILE_HELP">
+			<Text>Textile</Text>
+		</Row>
+
+		<Row Tag ="TXT_KEY_TECH_TEXTILE_QUOTE">
+			<Text>Textile</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

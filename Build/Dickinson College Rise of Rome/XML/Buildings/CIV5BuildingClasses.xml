@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/30/2017 9:49:58 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<BuildingClasses>
+		
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_JUPITER</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_JUPITER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_JUPITER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_JUNO</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_JUNO</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPE_JUNO</Description>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_MARS</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_MARS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_MARS</Description>
+			<Monument>false</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_MARS_SAVE</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_MARS_SAVE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_MARS_SAVE</Description>
+			<Monument>false</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_VENUS</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_VENUS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_VENUS</Description>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_APOLLO</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_APOLLO</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_APOLLO</Description>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_DIANA</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_DIANA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_DIANA</Description>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_VULCAN</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_VULCAN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_VULCAN</Description>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_VESTA</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_VESTA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_VESTA</Description>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_MERCURY</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_MERCURY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_MERCURY</Description>
+			<Monument>true</Monument>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_CERES</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_CERES</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_CERES</Description>
+			<Monument>true</Monument>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_GOVERNAMENTAL</Type>
+			<DefaultBuilding>BUILDING_CAPITOLIUM_VETUS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CAPITOLIUM_VETUS</Description>
+			<Monument>true</Monument>
+		</Row>
+
+	</BuildingClasses>
+  
+</GameData>

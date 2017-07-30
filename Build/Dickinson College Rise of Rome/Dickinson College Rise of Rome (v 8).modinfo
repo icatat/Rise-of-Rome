@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6231dfbc-7a11-4273-91ad-e6c281cf27d8" version="8">
+  <Properties>
+    <Name>Dickinson College Rise of Rome</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>The expansion of Rome from 509BCE to 264BCE</Teaser>
+    <Description>This mode creates a historical simulaion of the expansion of Rome from 509BCE to 264BCE. Expand from a city-state to take over all of Italy as Rome, or try to do the same as one of Rome's rivals.</Description>
+    <Authors>Catalina Ionescu &amp; Ian White advised by prof.Farrington, Dickinson College</Authors>
+    <SpecialThanks>Todd Bryant and Scott Farrington</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Dlc id="BBB0D085-A0B1-4475-B007-3E549CF3ADC3" minversion="0" maxversion="999" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="F54A8D0AFB273096826B68E0BDF8BF9B" import="0">GameDefines.xml</File>
+    <File md5="D2FF3FBBDFCEEBAF39A3CD34FE3C9A8B" import="0">Lua/Conquering.lua</File>
+    <File md5="FACC42EA413262338437569CE6EE952A" import="0">Lua/Conquering.xml</File>
+    <File md5="7E732950E080A0231AF199F0490D30CC" import="0">Lua/War390.lua</File>
+    <File md5="5584B25A7DEB7D72DB82AB6702A0298B" import="0">Lua/War390.xml</File>
+    <File md5="6B28791801B2B85D7F17D951D146AD5E" import="0">Lua/Year264.lua</File>
+    <File md5="04AA04FACFC7E4069804CADAFE39C23F" import="0">Lua/Year264.xml</File>
+    <File md5="FD973BECD92B68963E61DEA882D12B43" import="0">Map/rise of rome map.Civ5Map</File>
+    <File md5="164AE3552E23547ABE46C1DFC791F059" import="0">XML/Buildings/CIV5BuildingClasses.xml</File>
+    <File md5="8E8AA38F514FCDC335B001DDF59602FD" import="0">XML/Buildings/CIV5Buildings.xml</File>
+    <File md5="2820CB90F108A9C1AD32CB707F9C7328" import="0">XML/CIV5Leaders/CIV5Leaders_Brutus.xml</File>
+    <File md5="1C9C3B5FB8A781E6B976DC96E12F30E0" import="0">XML/CIV5Leaders/CIV5Leader_Aequi.xml</File>
+    <File md5="C8330D5FB7DD0921DB71D6DE5A3018C3" import="0">XML/CIV5Leaders/CIV5Leader_Etruscan.xml</File>
+    <File md5="5BE468DB4C7E708E666366F17AA653D9" import="0">XML/CIV5Leaders/CIV5Leader_Greece.xml</File>
+    <File md5="0F2D6BD7CA26B3AEF4D139D9BD2B5A14" import="0">XML/CIV5Leaders/CIV5Leader_Latins.xml</File>
+    <File md5="6E6A3DE651B5F0D4BD8BA31B1BB78517" import="0">XML/CIV5Leaders/CIV5Leader_Lucania.xml</File>
+    <File md5="01C482DE5BA4F964D556CD23BDB61AEB" import="0">XML/CIV5Leaders/CIV5Leader_Picenum.xml</File>
+    <File md5="AED70CE4DBD7A3D2C1225534294CD7EE" import="0">XML/CIV5Leaders/CIV5Leader_Sabines.xml</File>
+    <File md5="837721A559142272B04F19C605CFB69A" import="0">XML/CIV5Leaders/CIV5Leader_Semnites.xml</File>
+    <File md5="1D6ADE3C0BC77A09355EA30293A7F564" import="0">XML/CIV5Leaders/CIV5Leader_Senones.xml</File>
+    <File md5="807CC0A38F8DE7951AF8A06AE58550D7" import="0">XML/CIV5Leaders/CIV5Leader_Umbrians.xml</File>
+    <File md5="3B0C6C79D12BD743A474A3990D257D02" import="0">XML/CIV5Leaders/CIV5Leader_Veii.xml</File>
+    <File md5="6BC9B55DB808E17C9EEC473D2F936C4D" import="0">XML/CIV5Leaders/CIV5Leader_Volsci.xml</File>
+    <File md5="D77D8F041E4AC1D4E35B5A0E50F7E357" import="0">XML/Civilizations/CIV5MinorCivilizations.xml</File>
+    <File md5="0C736DAAD3F0C6B672A45FE294D316B0" import="0">XML/Civilizations/Civilizations.xml</File>
+    <File md5="2C77C3E2D9F4385EA952580247F3F677" import="0">XML/GameInfo/CIV5GameSpeeds.xml</File>
+    <File md5="7620D7011583DA90A8F1F30F790CE56C" import="0">XML/GameInfo/CIV5Policies.xml</File>
+    <File md5="2EF3380FAF29D4293A79DA274D68D48B" import="0">XML/GameInfo/CIV5PolicyBranchTypes.xml</File>
+    <File md5="26449BC5F9134665776A926FBECBAB96" import="0">XML/NewText/CIV5Buildings.xml</File>
+    <File md5="9893B379A97E2D3BC0FCA172B1252A46" import="0">XML/NewText/CIV5GameTextInfos_Civilizations.xml</File>
+    <File md5="B593B809A94A3E985ED3096292E42D1B" import="0">XML/NewText/CIV5GameTextInfos_Civilopedia.xml</File>
+    <File md5="89B3C3B9CFFDD682EB6AE37F724828E2" import="0">XML/NewText/CIV5GameTextInfos_Leaders.xml</File>
+    <File md5="ACAF39E401922DC997A311BF12AFB8D1" import="0">XML/NewText/CIV5GameText_Cities.xml</File>
+    <File md5="9214D2DA90D8802190E5E08934F671A5" import="0">XML/NewText/CIV5MinorCivilizations.xml</File>
+    <File md5="A088EACE133FC413C86D6D81FC81D338" import="0">XML/NewText/CIV5Policies.xml</File>
+    <File md5="5525F9DB1B3C44D04A564372645D3A2F" import="0">XML/NewText/CIV5PolicyBranchTypes.xml</File>
+    <File md5="A85C93B1D56347601CB8D5C8355CB106" import="0">XML/NewText/GameText.xml</File>
+    <File md5="F90099FACAA7B13A580F55FDEA49A4D2" import="0">XML/NewText/Improvements.xml</File>
+    <File md5="AF302B8809A9C10379EBD5ECF24BDFC5" import="0">XML/NewText/Resources.xml</File>
+    <File md5="D86ADDF46E219B0B80ECAE2B433437FA" import="0">XML/NewText/Technologies.xml</File>
+    <File md5="A8311FD741A6730877EE2B4179585AB2" import="0">XML/NewText/Units.xml</File>
+    <File md5="DC8B33C0D8C44FC8B3BC8C08BC033BD4" import="0">XML/Technologies/CIV5Technologies.xml</File>
+    <File md5="14A80B10F91881DAA9659723029A145D" import="0">XML/Terrain/CIV5Improvements.xml</File>
+    <File md5="10EDDFAA6CABC83E4608CFB7A1F42355" import="0">XML/Terrain/Resources.xml</File>
+    <File md5="283FD7C5327DAE0E9F9AA604D64F062D" import="0">XML/Units/CIV5Builds.xml</File>
+    <File md5="D66E0CE56B145E2DA43AE898BB9AFAB4" import="0">XML/Units/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GameInfo/CIV5GameSpeeds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/Resources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/CIV5Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/CIV5Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Resources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/CIV5MinorCivilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5MinorCivilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Semnites.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Senones.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Etruscan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Latins.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Volsci.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Aequi.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Umbrians.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leaders_Brutus.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Greece.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Veii.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5GameTextInfos_Civilopedia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5GameTextInfos_Leaders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5GameText_Cities.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5GameTextInfos_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Sabines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Picenum.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CIV5BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CIV5Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/CIV5PolicyBranchTypes.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/CIV5Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/War390.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CIV5Leaders/CIV5Leader_Lucania.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/CIV5Builds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5PolicyBranchTypes.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/Year264.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/War390.xml">
+      <Name>War 390</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Conquering.xml">
+      <Name>Conquering</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Year264.xml">
+      <Name>Year264</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

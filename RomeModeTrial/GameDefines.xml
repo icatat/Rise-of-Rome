@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/19/2017 5:08:57 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Define>
+		<DefineName>START_YEAR</DefineName>
+		<iDefineIntVal>-509</iDefineIntVal>
+	</Define>
+  
+</GameData>
